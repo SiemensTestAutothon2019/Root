@@ -1,0 +1,10 @@
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtmg
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtst
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe.config
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.xml
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.pdb
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.Core.Resolver.dll
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
+E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
