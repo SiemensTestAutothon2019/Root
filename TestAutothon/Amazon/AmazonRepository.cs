@@ -85,6 +85,7 @@ namespace Amazon
         [RepositoryFolder("fb4964e0-de80-431e-b9c4-84b16b488572")]
         public partial class AmazonAppFolder : RepoGenBaseFolder
         {
+            AmazonRepositoryFolders.HeaderFolder _header;
 
             /// <summary>
             /// Creates a new Amazon  folder.
@@ -92,6 +93,7 @@ namespace Amazon
             public AmazonAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Amazon", "/dom[@domain='www.amazon.in']", parentFolder, 30000, null, false, "fb4964e0-de80-431e-b9c4-84b16b488572", "")
             {
+                _header = new AmazonRepositoryFolders.HeaderFolder(this);
             }
 
             /// <summary>
@@ -115,6 +117,81 @@ namespace Amazon
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Header folder.
+            /// </summary>
+            [RepositoryFolder("538c18a1-a444-4333-95fe-0875cbfd3b9b")]
+            public virtual AmazonRepositoryFolders.HeaderFolder Header
+            {
+                get { return _header; }
+            }
+        }
+
+        /// <summary>
+        /// The HeaderFolder folder.
+        /// </summary>
+        [RepositoryFolder("538c18a1-a444-4333-95fe-0875cbfd3b9b")]
+        public partial class HeaderFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _cartInfo;
+
+            /// <summary>
+            /// Creates a new Header  folder.
+            /// </summary>
+            public HeaderFolder(RepoGenBaseFolder parentFolder) :
+                    base("Header", ".//header[@tagname='header']", parentFolder, 30000, null, false, "538c18a1-a444-4333-95fe-0875cbfd3b9b", "")
+            {
+                _cartInfo = new RepoItemInfo(this, "Cart", ".//a[@id~'cart']", 30000, null, "a41c897e-fccc-406d-8d3e-3080be07a93c");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("538c18a1-a444-4333-95fe-0875cbfd3b9b")]
+            public virtual Ranorex.HeaderTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.HeaderTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("538c18a1-a444-4333-95fe-0875cbfd3b9b")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Cart item.
+            /// </summary>
+            [RepositoryItem("a41c897e-fccc-406d-8d3e-3080be07a93c")]
+            public virtual Ranorex.ATag Cart
+            {
+                get
+                {
+                    return _cartInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Cart item info.
+            /// </summary>
+            [RepositoryItemInfo("a41c897e-fccc-406d-8d3e-3080be07a93c")]
+            public virtual RepoItemInfo CartInfo
+            {
+                get
+                {
+                    return _cartInfo;
                 }
             }
         }

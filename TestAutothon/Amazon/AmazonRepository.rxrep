@@ -20,6 +20,26 @@ name="AmazonRepository">
 		refimgid="c329f147-71fa-4048-9e00-728dc8b9dab5"
 		searchtimeout="30000ms"
 		usecache="False">
+			<folder
+			capname="headertag"
+			id="538c18a1-a444-4333-95fe-0875cbfd3b9b"
+			isrooted="True"
+			name="Header"
+			refimgid="2bc7d9a6-04ad-48b2-8779-a6b86991da0e"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				capname="atag"
+				id="a41c897e-fccc-406d-8d3e-3080be07a93c"
+				name="Cart"
+				refimgid="cefbd244-5d14-48fe-9ecb-6501e55dbc70"
+				searchtimeout="30000ms">
+					/dom[@domain='www.amazon.in']//header[@tagname='header']//a[@id~'cart']
+				</item>
+				<basepath>
+					/dom[@domain='www.amazon.in']//header[@tagname='header']
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='www.amazon.in']
 			</basepath>
