@@ -119,30 +119,6 @@
     <Compile Include="AssemblyInfo.cs">
       <id>1ef5a07e-aa86-44f6-ac97-06c36ad3a6c1</id>
     </Compile>
-    <Compile Include="CloseBrowser.cs">
-      <BoundTo>bffab3bc-8285-4acd-b5c7-7243963953ae</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>7cde7238-1130-4bdf-a333-fe72545cea4b</id>
-    </Compile>
-    <Compile Include="CloseBrowser.UserCode.cs">
-      <BoundTo>bffab3bc-8285-4acd-b5c7-7243963953ae</BoundTo>
-      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>9dabbbbf-7579-452d-b242-702a1ab68cfb</id>
-    </Compile>
-    <Compile Include="OpenBrowser.cs">
-      <BoundTo>3a8efc37-e8da-4993-8ca9-a77d55138b55</BoundTo>
-      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>7c198fa3-94a0-4c89-9923-fcc5d9e2ab88</id>
-    </Compile>
-    <Compile Include="OpenBrowser.UserCode.cs">
-      <BoundTo>3a8efc37-e8da-4993-8ca9-a77d55138b55</BoundTo>
-      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>cea53bb8-2b68-4594-93fa-4cd7a9076d0e</id>
-    </Compile>
     <Compile Include="Program.cs">
       <id>50b65117-7738-4583-9f22-b07646dfd081</id>
     </Compile>
@@ -156,16 +132,6 @@
   <ItemGroup>
     <None Include="app.config">
       <id>1606d47f-2ac3-4469-bae5-329b6e2fb893</id>
-    </None>
-    <None Include="CloseBrowser.rxrec">
-      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
-      <id>bffab3bc-8285-4acd-b5c7-7243963953ae</id>
-      <recordtableid>f49f7391-ccfc-494c-8a7d-3eb3938d30b6</recordtableid>
-    </None>
-    <None Include="OpenBrowser.rxrec">
-      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
-      <id>3a8efc37-e8da-4993-8ca9-a77d55138b55</id>
-      <recordtableid>dc5a3f09-ba3d-4314-96d8-a7da59f5b571</recordtableid>
     </None>
     <None Include="TestAutothonRepository.rximg">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
