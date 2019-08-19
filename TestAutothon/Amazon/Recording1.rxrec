@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4a1aee3e-0468-4afc-bcb8-5e89dfa0097e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Amazon">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="b02ea280-11f8-4751-8ae4-b71e708ec4dd"
+	name="AmazonRepository"
+	relativepath="AmazonRepository.rxrep">
+		<codegen
+		classname="AmazonRepository"
+		namespace="Amazon">
+		</codegen>
+		<rootfolder
+		id="c42d542c-2f70-4569-a6cf-8e95139db0b5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

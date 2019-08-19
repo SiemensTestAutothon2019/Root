@@ -4,12 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.1.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutothon", "TestAutothon\TestAutothon.csproj", "{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54F3A10B-59DC-4591-823A-8E18EC88B745}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutothon", "TestAutothon\TestAutothon.csproj", "{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{386A1A35-3995-473E-AA20-931A147A336D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +23,9 @@ Global
 		{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}.Debug|x86.ActiveCfg = Debug|x86
 		{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}.Release|x86.Build.0 = Release|x86
 		{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}.Release|x86.ActiveCfg = Release|x86
+		{386A1A35-3995-473E-AA20-931A147A336D}.Debug|x86.Build.0 = Debug|x86
+		{386A1A35-3995-473E-AA20-931A147A336D}.Debug|x86.ActiveCfg = Debug|x86
+		{386A1A35-3995-473E-AA20-931A147A336D}.Release|x86.Build.0 = Release|x86
+		{386A1A35-3995-473E-AA20-931A147A336D}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

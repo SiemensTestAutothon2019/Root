@@ -1,0 +1,32 @@
+﻿<repository
+id="b02ea280-11f8-4751-8ae4-b71e708ec4dd"
+name="AmazonRepository">
+	<codegen
+	classname="AmazonRepository"
+	namespace="Amazon">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="c42d542c-2f70-4569-a6cf-8e95139db0b5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="webdocument"
+		id="fb4964e0-de80-431e-b9c4-84b16b488572"
+		isrooted="True"
+		name="Amazon"
+		refimgid="c329f147-71fa-4048-9e00-728dc8b9dab5"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.amazon.in']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

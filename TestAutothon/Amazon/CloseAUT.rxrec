@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="76f1372b-9d51-4c58-824b-60484303b5cf"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Amazon">
+	</codegen>
+	<variables>
+		<var
+		id="3e21ea26-98ea-4355-8160-ecb21b5d340b"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="899f0a34-0cda-4c31-a1b9-b3cfc00e8bd7">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="b02ea280-11f8-4751-8ae4-b71e708ec4dd"
+	name="AmazonRepository"
+	relativepath="AmazonRepository.rxrep">
+		<codegen
+		classname="AmazonRepository"
+		namespace="Amazon">
+		</codegen>
+		<rootfolder
+		id="c42d542c-2f70-4569-a6cf-8e95139db0b5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
