@@ -122,6 +122,18 @@
     <Compile Include="Program.cs">
       <id>50b65117-7738-4583-9f22-b07646dfd081</id>
     </Compile>
+    <Compile Include="s1.cs">
+      <BoundTo>dde8c309-1722-4f68-9673-1a133e720314</BoundTo>
+      <DependentUpon>s1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>84929aaf-19ee-4efe-8e6d-5caa3ed2aefb</id>
+    </Compile>
+    <Compile Include="s1.UserCode.cs">
+      <BoundTo>dde8c309-1722-4f68-9673-1a133e720314</BoundTo>
+      <DependentUpon>s1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>659e77ed-8f7a-4dc0-ac99-c7c16a384f4e</id>
+    </Compile>
     <Compile Include="TestAutothonRepository.cs">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
       <DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
@@ -132,6 +144,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>1606d47f-2ac3-4469-bae5-329b6e2fb893</id>
+    </None>
+    <None Include="s1.rxrec">
+      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
+      <id>dde8c309-1722-4f68-9673-1a133e720314</id>
+      <recordtableid>2d7d408f-4bea-4cb8-934f-74bd7c2a90a3</recordtableid>
     </None>
     <None Include="TestAutothonRepository.rximg">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
