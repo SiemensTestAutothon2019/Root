@@ -1,180 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<PropertyGroup>
-		<ProjectGuid>{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}</ProjectGuid>
-		<TargetFrameworkProfile></TargetFrameworkProfile>
-		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-		<Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-		<OutputType>Exe</OutputType>
-		<RootNamespace>TestAutothon</RootNamespace>
-		<AssemblyName>TestAutothon</AssemblyName>
-		<NoWarn>1591</NoWarn>
-		<TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
-		<RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
-		<RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-		<projectdefaultrepository>326441c9-9733-4a26-9a65-3bfea5ebf814</projectdefaultrepository>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Platform)' == 'x86' ">
-		<PlatformTarget>x86</PlatformTarget>
-		<Prefer32Bit>True</Prefer32Bit>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-		<OutputPath>bin\Debug\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>True</DebugSymbols>
-		<DebugType>Full</DebugType>
-		<Optimize>False</Optimize>
-		<CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
-		<DefineConstants>DEBUG;TRACE</DefineConstants>
-	</PropertyGroup>
-	<PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-		<OutputPath>bin\Release\</OutputPath>
-		<DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
-		<DebugSymbols>False</DebugSymbols>
-		<DebugType>None</DebugType>
-		<Optimize>True</Optimize>
-		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-		<DefineConstants>TRACE</DefineConstants>
-	</PropertyGroup>
-	<ItemGroup>
-		<Reference Include="Ranorex.Bootstrapper">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Core.Resolver">
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Cef">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.ChromeWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Delphi">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.FirefoxWeb">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Flex">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Java">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Mobile">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Msaa">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Office">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Qt">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.RawText">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Sap">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Uia">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Web">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WebDriver">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Win32">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.WinForms">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Ranorex.Plugin.Wpf">
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="System"></Reference>
-		<Reference Include="System.Core">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Data"></Reference>
-		<Reference Include="System.Data.DataSetExtensions">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-		<Reference Include="System.Drawing"></Reference>
-		<Reference Include="System.Windows.Forms"></Reference>
-		<Reference Include="System.Xml"></Reference>
-		<Reference Include="System.Xml.Linq">
-			<RequiredTargetFramework>3.5</RequiredTargetFramework>
-		</Reference>
-	</ItemGroup>
-	<ItemGroup>
-		<Compile Include="AssemblyInfo.cs">
-			<id>1ef5a07e-aa86-44f6-ac97-06c36ad3a6c1</id>
-		</Compile>
-		<Compile Include="Program.cs">
-			<id>50b65117-7738-4583-9f22-b07646dfd081</id>
-		</Compile>
-		<Compile Include="s1.cs">
-			<BoundTo>dde8c309-1722-4f68-9673-1a133e720314</BoundTo>
-			<DependentUpon>s1.rxrec</DependentUpon>
-			<RecorderCode>true</RecorderCode>
-			<id>84929aaf-19ee-4efe-8e6d-5caa3ed2aefb</id>
-		</Compile>
-		<Compile Include="s1.UserCode.cs">
-			<BoundTo>dde8c309-1722-4f68-9673-1a133e720314</BoundTo>
-			<DependentUpon>s1.rxrec</DependentUpon>
-			<UserCode>true</UserCode>
-			<id>659e77ed-8f7a-4dc0-ac99-c7c16a384f4e</id>
-		</Compile>
-		<Compile Include="TestAutothonRepository.cs">
-			<BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
-			<DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
-			<RepositoryCode>true</RepositoryCode>
-			<id>17dd71e7-f090-4856-a231-7562e63e4493</id>
-		</Compile>
-		<Compile Include="Testing_Subir.cs">
-			<id>5763aaf9-ba9b-4af1-8a65-a4ba8a19429f</id>
-		</Compile>
-	</ItemGroup>
-	<ItemGroup>
-		<None Include="app.config">
-			<id>1606d47f-2ac3-4469-bae5-329b6e2fb893</id>
-		</None>
-		<None Include="s1.rxrec">
-			<BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
-			<id>dde8c309-1722-4f68-9673-1a133e720314</id>
-			<recordtableid>2d7d408f-4bea-4cb8-934f-74bd7c2a90a3</recordtableid>
-		</None>
-		<None Include="TestAutothonRepository.rximg">
-			<BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
-			<DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
-			<imageblob>true</imageblob>
-			<id>ec3ee9d7-edf4-4947-b96e-04ad5f66eb9c</id>
-		</None>
-		<None Include="TestAutothonRepository.rxrep">
-			<id>326441c9-9733-4a26-9a65-3bfea5ebf814</id>
-			<repoid>fb93bd96-a003-4bf4-9fde-266217153c26</repoid>
-			<reporootid>b4292495-4ad5-4e0c-bdba-afa9ef290732</reporootid>
-		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<Content Include="TestAutothon.rxtmg">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>948b9e7e-0993-4986-a7c5-d19b944e2634</id>
-		</Content>
-		<Content Include="TestAutothon.rxtst">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-			<id>b19a6a4c-ccc9-4518-83b2-924df6332848</id>
-		</Content>
-	</ItemGroup>
-	<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"></Import>
-	<Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)"></Import>
+  <PropertyGroup>
+    <ProjectGuid>{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestAutothon</RootNamespace>
+    <AssemblyName>TestAutothon</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>326441c9-9733-4a26-9a65-3bfea5ebf814</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1ef5a07e-aa86-44f6-ac97-06c36ad3a6c1</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>50b65117-7738-4583-9f22-b07646dfd081</id>
+    </Compile>
+    <Compile Include="TestAutothonRepository.cs">
+      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
+      <DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>17dd71e7-f090-4856-a231-7562e63e4493</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>1606d47f-2ac3-4469-bae5-329b6e2fb893</id>
+    </None>
+    <None Include="TestAutothonRepository.rximg">
+      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
+      <DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>ec3ee9d7-edf4-4947-b96e-04ad5f66eb9c</id>
+    </None>
+    <None Include="TestAutothonRepository.rxrep">
+      <id>326441c9-9733-4a26-9a65-3bfea5ebf814</id>
+      <repoid>fb93bd96-a003-4bf4-9fde-266217153c26</repoid>
+      <reporootid>b4292495-4ad5-4e0c-bdba-afa9ef290732</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestAutothon.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>948b9e7e-0993-4986-a7c5-d19b944e2634</id>
+    </Content>
+    <Content Include="TestAutothon.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b19a6a4c-ccc9-4518-83b2-924df6332848</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
 </Project>
