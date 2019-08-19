@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2d7d408f-4bea-4cb8-934f-74bd7c2a90a3"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="s1"
+	namespace="TestAutothon">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="fb93bd96-a003-4bf4-9fde-266217153c26"
+	name="TestAutothonRepository"
+	relativepath="TestAutothonRepository.rxrep">
+		<codegen
+		classname="TestAutothonRepository"
+		namespace="TestAutothon">
+		</codegen>
+		<rootfolder
+		id="b4292495-4ad5-4e0c-bdba-afa9ef290732"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		s1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
