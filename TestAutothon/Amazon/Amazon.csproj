@@ -152,6 +152,9 @@
       <UserCode>true</UserCode>
       <id>182a6bd4-d51a-4cc2-b603-d04c629e166e</id>
     </Compile>
+    <Compile Include="Source\Helper.cs">
+      <id>bed6453d-485a-4d96-9f28-45ecaf9d5dff</id>
+    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>44603a6e-593a-439d-9ce7-90d12be845c6</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -205,6 +208,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>678d8f01-3047-42f5-b3b7-62a9f891c91a</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source">
+      <id>d1c0ace9-a192-43a8-861c-4992ca2e7283</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
