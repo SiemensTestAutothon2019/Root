@@ -8,3 +8,7 @@ E:\Jinosh\Git\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.Core.Resolver.dll
 E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
 E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
 E:\Jinosh\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.xml
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb

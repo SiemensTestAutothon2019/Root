@@ -128,6 +128,9 @@
     <Compile Include="Program.cs">
       <id>50b65117-7738-4583-9f22-b07646dfd081</id>
     </Compile>
+    <Compile Include="Source\Helper.cs">
+      <id>063c1386-c46e-4750-b025-80e9c23ac991</id>
+    </Compile>
     <Compile Include="TestAutothonRepository.cs">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
       <DependentUpon>TestAutothonRepository.rxrep</DependentUpon>
@@ -160,6 +163,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>b19a6a4c-ccc9-4518-83b2-924df6332848</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source">
+      <id>3e99d6b2-121c-463c-a2c9-b527a37efa5c</id>
+    </Folder>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
   </Import>
