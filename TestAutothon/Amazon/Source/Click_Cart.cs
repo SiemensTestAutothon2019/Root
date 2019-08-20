@@ -46,7 +46,7 @@ namespace Amazon
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
             
-            Report.info("Click on cart option in Amazon Home page");
+            Report.Info("Click on cart option in Amazon Home page");
             
             AmazonRepository repo = AmazonRepository.Instance;
 			WebElement elmCart;
