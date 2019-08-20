@@ -152,6 +152,9 @@
       <UserCode>true</UserCode>
       <id>182a6bd4-d51a-4cc2-b603-d04c629e166e</id>
     </Compile>
+    <Compile Include="Source\AddProduct.cs">
+      <id>6963f253-404c-46f0-91d8-8f6f5ab1adb0</id>
+    </Compile>
     <Compile Include="Source\Click_Cart.cs">
       <id>031e3ca1-85ea-4fe7-9d74-a90201fbae3d</id>
     </Compile>
