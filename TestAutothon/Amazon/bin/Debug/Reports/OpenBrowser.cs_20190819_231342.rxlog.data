@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d7f30741baf43f4"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/19/2019 11:13:46 PM"
+		timestampiso="2019-08-20T06:13:46"
+		endtime="8/19/2019 11:13:59 PM"
+		timeoutfactor="1"
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.175"
+			timeRelativeToTestModuleStartTime="00:13.175"
+			timeWallClock="23:13:59"
+			time="00:13.175"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>URL
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.436"
+			timeRelativeToTestModuleStartTime="00:13.436"
+			timeWallClock="23:13:59"
+			time="00:13.436"
+			level="Success"
+			category="User">
+			<message>
+				Successfully opened www.amazon.com URL.
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\Amazon\Source\OpenBrowser.cs"
+				codeline="60"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

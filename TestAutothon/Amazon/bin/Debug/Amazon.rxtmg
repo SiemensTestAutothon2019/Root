@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Amazon"
+      id="b8503997-5e52-4b26-b7a6-60717114d2ea"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Amazon"
+      id="b8503997-5e52-4b26-b7a6-60717114d2ea"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
