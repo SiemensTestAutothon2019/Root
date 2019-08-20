@@ -40,6 +40,37 @@ name="AmazonRepository">
 					/dom[@domain='www.amazon.in']//header[@tagname='header']
 				</basepath>
 			</folder>
+			<folder
+			capname="divtag"
+			id="cf0888c5-491e-4933-8727-4ceada3e5b64"
+			isrooted="True"
+			name="Body"
+			refimgid="71217561-3964-45ca-b87f-ad63cb46c2b1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<folder
+				capname="form"
+				id="4e492c84-5c9a-40d4-b4dd-a2c67c4a9802"
+				isrooted="True"
+				name="CartView"
+				refimgid="983cfa75-bd2b-45b2-9f2d-845fde78a5f7"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="spantag"
+					id="9d3a68dc-bd42-471b-aaf3-77533672dfa9"
+					name="Item"
+					searchtimeout="30000ms">
+						/dom[@domain='www.amazon.in']//div[@id~'content']//form[@id='activeCartViewForm']//span[@innertext~$rep_ItemName]
+					</item>
+					<basepath>
+						/dom[@domain='www.amazon.in']//div[@id~'content']//form[@id='activeCartViewForm']
+					</basepath>
+				</folder>
+				<basepath>
+					/dom[@domain='www.amazon.in']//div[@id~'content']
+				</basepath>
+			</folder>
 			<basepath>
 				/dom[@domain='www.amazon.in']
 			</basepath>
@@ -48,5 +79,10 @@ name="AmazonRepository">
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="7e780dec-45f8-4cab-b857-17a938be1510"
+		name="rep_ItemName">
+			Fenoix Men's Cotton T-Shirt Hooded Maroon-Medium&#10;
+		</var>
 	</variables>
 </repository>
