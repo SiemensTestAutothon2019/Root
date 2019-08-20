@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ce83ee5a9b8741"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 1:08:43 AM"
+		timestampiso="2019-08-20T08:08:43"
+		endtime="8/20/2019 1:09:00 AM"
+		timeoutfactor="1"
+		module="Open_Product">
+		<detail>
+			Open_Product
+		</detail>
+		<errormessage>
+			Invalid RxPath '/dom[@domain='www.amazon.com']//div[#'search']/div[1]/div[2]/div/span[3]//span[@innertext='Amazon Brand - Goodthreads Men's Lightweight Slub V-Neck Pocket T-Shirt']'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.442"
+			timeRelativeToTestModuleStartTime="00:11.442"
+			timeWallClock="01:08:54"
+			time="00:11.442"
+			level="Warn"
+			category="Data"
+			errimg="images_Open_Pro_1d298a60\Open_Pro_1d298a60_24dd4367_trace.jpg"
+			errthumb="images_Open_Pro_1d298a60\Open_Pro_1d298a60_24dd4367_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ProductName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.696"
+			timeRelativeToTestModuleStartTime="00:17.696"
+			timeWallClock="01:09:00"
+			time="00:17.696"
+			level="Error"
+			category="Module"
+			errimg="images_Open_Pro_1d298a60\Open_Pro_1d298a60_92bd12bc_trace.jpg"
+			errthumb="images_Open_Pro_1d298a60\Open_Pro_1d298a60_92bd12bc_trace_thumb.jpg">
+			<message>
+				Invalid RxPath '/dom[@domain='www.amazon.com']//div[#'search']/div[1]/div[2]/div/span[3]//span[@innertext='Amazon Brand - Goodthreads Men's Lightweight Slub V-Neck Pocket T-Shirt']'.<br/>Invalid character at character position 162.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.RxPath.op_Implicit(String path)
+   at Amazon.Open_Product.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\Amazon\Source\Open_Product.cs:line 63
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Root\TestAutothon\Amazon\Source\Open_Product.cs"
+				codeline="63"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

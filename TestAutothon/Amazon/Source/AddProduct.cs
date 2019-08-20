@@ -54,10 +54,8 @@ namespace Amazon
 			Mouse.DefaultMoveTime = 300;
 			Keyboard.DefaultKeyPressTime = 100;
 			Delay.SpeedFactor = 1.0;
+			Mouse.Enabled=false;
 			
-			AmazonRepository repo = AmazonRepository.Instance;
-			
-			var amazon = repo.Amazon;
 			WebElement elmSearchBox,elmBox;
 			WebDocument myWebDocument = "/dom[@domain='www.amazon.com']";
 			elmSearchBox = myWebDocument.FindSingle(".//input[@id='twotabsearchtextbox']");

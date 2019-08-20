@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="829ebbd8a4f9d60"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 1:18:18 AM"
+		timestampiso="2019-08-20T08:18:18"
+		endtime="8/20/2019 1:19:02 AM"
+		timeoutfactor="1"
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<errormessage>
+			Unable to find chrome with given application.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.905"
+			timeRelativeToTestModuleStartTime="00:43.905"
+			timeWallClock="01:19:02"
+			time="00:43.905"
+			level="Error"
+			category="Module"
+			errimg="images_CloseBro_ddba52e\CloseBro_ddba52e_9f479460_trace.jpg"
+			errthumb="images_CloseBro_ddba52e\CloseBro_ddba52e_9f479460_trace_thumb.jpg">
+			<message>
+				Unable to find chrome with given application.
+			</message>
+			<metainfo
+				stacktrace="   at Amazon.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\Amazon\Source\CloseBrowser.cs:line 58
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Root\TestAutothon\Amazon\Source\CloseBrowser.cs"
+				codeline="58"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

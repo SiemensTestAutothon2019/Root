@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2ed8f5cab8d5da0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 1:24:55 AM"
+		timestampiso="2019-08-20T08:24:55"
+		endtime="8/20/2019 1:25:12 AM"
+		timeoutfactor="1"
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.507"
+			timeRelativeToTestModuleStartTime="00:10.507"
+			timeWallClock="01:25:06"
+			time="00:10.507"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>URL
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.877"
+			timeRelativeToTestModuleStartTime="00:16.877"
+			timeWallClock="01:25:12"
+			time="00:16.877"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for path '/dom[@domain='www.amazon.com']' does exist.
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\Amazon\Source\CloseBrowser.cs"
+				codeline="66"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

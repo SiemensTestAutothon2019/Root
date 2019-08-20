@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2d38648f16b819a"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 1:20:28 AM"
+		timestampiso="2019-08-20T08:20:28"
+		endtime="8/20/2019 1:20:50 AM"
+		timeoutfactor="1"
+		module="CloseBrowser">
+		<detail>
+			CloseBrowser
+		</detail>
+		<errormessage>
+			Unable to find chrome with given application.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.183"
+			timeRelativeToTestModuleStartTime="00:11.183"
+			timeWallClock="01:20:39"
+			time="00:11.183"
+			level="Warn"
+			category="Data"
+			errimg="images_CloseBro_f5eda526\CloseBro_f5eda526_006d9904_trace.jpg"
+			errthumb="images_CloseBro_f5eda526\CloseBro_f5eda526_006d9904_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>URL
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.682"
+			timeRelativeToTestModuleStartTime="00:21.682"
+			timeWallClock="01:20:49"
+			time="00:21.682"
+			level="Error"
+			category="Module"
+			errimg="images_CloseBro_f5eda526\CloseBro_f5eda526_9d333e7e_trace.jpg"
+			errthumb="images_CloseBro_f5eda526\CloseBro_f5eda526_9d333e7e_trace_thumb.jpg">
+			<message>
+				Unable to find chrome with given application.
+			</message>
+			<metainfo
+				stacktrace="   at Amazon.CloseBrowser.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\Amazon\Source\CloseBrowser.cs:line 68
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Root\TestAutothon\Amazon\Source\CloseBrowser.cs"
+				codeline="68"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

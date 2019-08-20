@@ -208,6 +208,24 @@
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
         </member>
+        <member name="T:Amazon.CloseBrowser">
+            <summary>
+            Description of CloseBrowser.
+            </summary>
+        </member>
+        <member name="M:Amazon.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Amazon.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:Amazon.OpenBrowser">
             <summary>
             Description of OpenBrowser.
@@ -219,6 +237,24 @@
             </summary>
         </member>
         <member name="M:Amazon.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Amazon.Open_Product">
+            <summary>
+            Description of Open_Product.
+            </summary>
+        </member>
+        <member name="M:Amazon.Open_Product.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Amazon.Open_Product.Ranorex#Core#Testing#ITestModule#Run">
             <summary>
             Performs the playback of actions in this module.
             </summary>

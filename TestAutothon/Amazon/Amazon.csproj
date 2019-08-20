@@ -158,8 +158,14 @@
     <Compile Include="Source\Click_Cart.cs">
       <id>031e3ca1-85ea-4fe7-9d74-a90201fbae3d</id>
     </Compile>
+    <Compile Include="Source\CloseBrowser.cs">
+      <id>e66c85c1-ee59-47b6-b5c1-6843ed6c4123</id>
+    </Compile>
     <Compile Include="Source\OpenBrowser.cs">
       <id>06db5b32-b78d-45a6-a54a-162b3a3d0d53</id>
+    </Compile>
+    <Compile Include="Source\Open_Product.cs">
+      <id>58fc0697-6c82-483a-9e3f-f026ad5d0eb6</id>
     </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>44603a6e-593a-439d-9ce7-90d12be845c6</BoundTo>
