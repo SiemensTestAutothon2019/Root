@@ -49,6 +49,18 @@ namespace Amazon
 
 #region Variables
 
+        string _rep_ItemName = "Fenoix Men's Cotton T-Shirt Hooded Maroon-Medium\n";
+
+        /// <summary>
+        /// Gets or sets the value of variable rep_ItemName.
+        /// </summary>
+        [TestVariable("17d583bd-ed82-419b-843c-8efa1b6b6772")]
+        public string rep_ItemName
+        {
+            get { return _rep_ItemName; }
+            set { _rep_ItemName = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -86,6 +98,7 @@ namespace Amazon
         public partial class AmazonAppFolder : RepoGenBaseFolder
         {
             AmazonRepositoryFolders.HeaderFolder _header;
+            AmazonRepositoryFolders.BodyFolder _body;
 
             /// <summary>
             /// Creates a new Amazon  folder.
@@ -94,6 +107,7 @@ namespace Amazon
                     base("Amazon", "/dom[@domain='www.amazon.in']", parentFolder, 30000, null, false, "fb4964e0-de80-431e-b9c4-84b16b488572", "")
             {
                 _header = new AmazonRepositoryFolders.HeaderFolder(this);
+                _body = new AmazonRepositoryFolders.BodyFolder(this);
             }
 
             /// <summary>
@@ -127,6 +141,15 @@ namespace Amazon
             public virtual AmazonRepositoryFolders.HeaderFolder Header
             {
                 get { return _header; }
+            }
+
+            /// <summary>
+            /// The Body folder.
+            /// </summary>
+            [RepositoryFolder("cf0888c5-491e-4933-8727-4ceada3e5b64")]
+            public virtual AmazonRepositoryFolders.BodyFolder Body
+            {
+                get { return _body; }
             }
         }
 
@@ -192,6 +215,123 @@ namespace Amazon
                 get
                 {
                     return _cartInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The BodyFolder folder.
+        /// </summary>
+        [RepositoryFolder("cf0888c5-491e-4933-8727-4ceada3e5b64")]
+        public partial class BodyFolder : RepoGenBaseFolder
+        {
+            AmazonRepositoryFolders.CartViewFolder _cartview;
+
+            /// <summary>
+            /// Creates a new Body  folder.
+            /// </summary>
+            public BodyFolder(RepoGenBaseFolder parentFolder) :
+                    base("Body", ".//div[@id~'content']", parentFolder, 30000, null, false, "cf0888c5-491e-4933-8727-4ceada3e5b64", "")
+            {
+                _cartview = new AmazonRepositoryFolders.CartViewFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("cf0888c5-491e-4933-8727-4ceada3e5b64")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("cf0888c5-491e-4933-8727-4ceada3e5b64")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The CartView folder.
+            /// </summary>
+            [RepositoryFolder("4e492c84-5c9a-40d4-b4dd-a2c67c4a9802")]
+            public virtual AmazonRepositoryFolders.CartViewFolder CartView
+            {
+                get { return _cartview; }
+            }
+        }
+
+        /// <summary>
+        /// The CartViewFolder folder.
+        /// </summary>
+        [RepositoryFolder("4e492c84-5c9a-40d4-b4dd-a2c67c4a9802")]
+        public partial class CartViewFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _itemInfo;
+
+            /// <summary>
+            /// Creates a new CartView  folder.
+            /// </summary>
+            public CartViewFolder(RepoGenBaseFolder parentFolder) :
+                    base("CartView", ".//form[@id='activeCartViewForm']", parentFolder, 30000, null, false, "4e492c84-5c9a-40d4-b4dd-a2c67c4a9802", "")
+            {
+                _itemInfo = new RepoItemInfo(this, "Item", ".//span[@innertext~$rep_ItemName and @visible='True']", 30000, null, "9d3a68dc-bd42-471b-aaf3-77533672dfa9");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("4e492c84-5c9a-40d4-b4dd-a2c67c4a9802")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("4e492c84-5c9a-40d4-b4dd-a2c67c4a9802")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Item item.
+            /// </summary>
+            [RepositoryItem("9d3a68dc-bd42-471b-aaf3-77533672dfa9")]
+            public virtual Ranorex.SpanTag Item
+            {
+                get
+                {
+                    return _itemInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Item item info.
+            /// </summary>
+            [RepositoryItemInfo("9d3a68dc-bd42-471b-aaf3-77533672dfa9")]
+            public virtual RepoItemInfo ItemInfo
+            {
+                get
+                {
+                    return _itemInfo;
                 }
             }
         }

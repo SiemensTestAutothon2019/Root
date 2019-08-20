@@ -8,3 +8,13 @@ F:\Root\TestAutothon\Amazon\bin\Debug\Ranorex.Core.Resolver.dll
 F:\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.csprojResolveAssemblyReference.cache
 F:\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.exe
 F:\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.pdb
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.rxtmg
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.rxtst
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.exe.config
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.xml
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.exe
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Amazon.pdb
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.csprojResolveAssemblyReference.cache
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.exe
+C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.pdb

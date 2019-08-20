@@ -161,6 +161,12 @@
     <Compile Include="Source\CloseBrowser.cs">
       <id>e66c85c1-ee59-47b6-b5c1-6843ed6c4123</id>
     </Compile>
+    <Compile Include="Source\Delete_Item_Cart.cs">
+      <id>837bc432-9371-4709-8a31-062a7cf1d7ff</id>
+    </Compile>
+    <Compile Include="Source\Helper.cs">
+      <id>a2ea9f13-260c-489a-a7bd-947760a8dec9</id>
+    </Compile>
     <Compile Include="Source\OpenBrowser.cs">
       <id>06db5b32-b78d-45a6-a54a-162b3a3d0d53</id>
     </Compile>
