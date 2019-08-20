@@ -1,8 +1,8 @@
 ﻿/*
  * Created by Ranorex
- * User: Asmi
+ * User: Bindudevi
  * Date: 8/19/2019
- * Time: 5:11 PM
+ * Time: 11:05 PM
  * 
  * To change this template use Tools > Options > Coding > Edit standard headers.
  */
@@ -21,15 +21,24 @@ using Ranorex.Core.Testing;
 namespace Amazon
 {
     /// <summary>
-    /// Description of Click_Cart.
+    /// Description of OpenBrowser.
     /// </summary>
-    [TestModule("26344B4C-2298-4EC0-B2AE-7D5CD0DAA6F7", ModuleType.UserCode, 1)]
-    public class Click_Cart : ITestModule
+    [TestModule("67D3E2FC-1F46-4B1C-A678-3EE614D731AE", ModuleType.UserCode, 1)]
+    public class OpenBrowser : ITestModule
     {
+    	
+    	string _URL = "www.amazon.com";
+    	[TestVariable("d19ac2b9-62f9-4106-afb8-08f14a424661")]
+    	public string URL
+    	{
+    		get { return _URL; }
+    		set { _URL = value; }
+    	}
+    	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Click_Cart()
+        public OpenBrowser()
         {
             // Do not delete - a parameterless constructor is required!
         }
@@ -45,23 +54,10 @@ namespace Amazon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            Mouse.Enabled=false;
             
-            Report.Info("Click on cart option in Amazon Home page");
-            
-            AmazonRepository repo = AmazonRepository.Instance;
-			WebElement elmCart;
-			bool clickOperation=true;
-			do
-			{
-				if(!repo.Amazon.Header.CartInfo.Exists(5000, out elmCart))
-					throw new RanorexException("Cart is not avaialable in the website");
-				if(elmCart==null)
-					clickOperation = false;
-				else
-					elmCart.Click();
-				
-			}while(clickOperation==false);
-			Report.Success("Cart has been click successfully");
+            Host.Local.OpenBrowser(URL,"Chrome",false,false);
+			Report.Success(string.Format("Successfully opened {0} URL.",URL));
         }
     }
 }
