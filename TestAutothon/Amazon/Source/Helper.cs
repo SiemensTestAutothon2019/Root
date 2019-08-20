@@ -54,7 +54,6 @@ namespace Amazon
 						}
 					}
 					parent = parent.Parent;
-					Report.Info(string.Format("{0}",parent));
 				}while (!IsFound);
 				
 				return parentElement;

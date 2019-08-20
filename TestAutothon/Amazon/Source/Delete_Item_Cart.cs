@@ -60,9 +60,9 @@ namespace Amazon
 			WebElement elmItems,elmParent,elmSibling,elmDelete;
 			if(repo.Amazon.Body.CartView.ItemInfo.Exists(5000,out elmItems))
 			{
-				elmParent = Helper.GetParent(elmItems,"Ul","TagName","ul");
-				elmSibling = elmParent.NextSibling;
-				if(elmSibling.TryFindSingle(elmSibling.GetPath().ToString()+"//input[@tagname='input' and @tagvalue='Delete']",5000,out elmDelete))
+				elmParent = Helper.GetParent(elmItems,"Div","SafeClass","a-col-right");
+				//elmSibling = elmParent.NextSibling;
+				if(elmParent.TryFindSingle(elmParent.GetPath().ToString()+"//input[@tagname='input' and @tagvalue='Delete']",5000,out elmDelete))
 				{
 					bool clickOperation=true;
 					do
