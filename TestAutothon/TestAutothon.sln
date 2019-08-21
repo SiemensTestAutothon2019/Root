@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutothon", "TestAutotho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "Amazon\Amazon.csproj", "{386A1A35-3995-473E-AA20-931A147A336D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{169B3823-ED9D-4184-A440-9A9BC682B5B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -27,5 +29,9 @@ Global
 		{386A1A35-3995-473E-AA20-931A147A336D}.Debug|x86.ActiveCfg = Debug|x86
 		{386A1A35-3995-473E-AA20-931A147A336D}.Release|x86.Build.0 = Release|x86
 		{386A1A35-3995-473E-AA20-931A147A336D}.Release|x86.ActiveCfg = Release|x86
+		{169B3823-ED9D-4184-A440-9A9BC682B5B3}.Debug|x86.Build.0 = Debug|x86
+		{169B3823-ED9D-4184-A440-9A9BC682B5B3}.Debug|x86.ActiveCfg = Debug|x86
+		{169B3823-ED9D-4184-A440-9A9BC682B5B3}.Release|x86.Build.0 = Release|x86
+		{169B3823-ED9D-4184-A440-9A9BC682B5B3}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -18,3 +18,7 @@ C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\bin\Debug\Ranorex.Core.Reso
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.csprojResolveAssemblyReference.cache
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.exe
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\Amazon\obj\x86\Debug\Amazon.pdb
+F:\Root\TestAutothon\Amazon\bin\Debug\Ranorex Automation Helpers.dll
+F:\Root\TestAutothon\Amazon\bin\Debug\Ranorex.ReportToPDF.exe
+F:\Root\TestAutothon\Amazon\bin\Debug\Ranorex Automation Helpers.pdb
+F:\Root\TestAutothon\Amazon\bin\Debug\Ranorex Automation Helpers.xml

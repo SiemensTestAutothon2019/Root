@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="TestAutothon.rxtst" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="TestAutothon.rxtst" />
-  </Array>
-  <Properties name="projectSavedData" />
+  <Array name="files" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
 </Properties>

@@ -7,6 +7,6 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution TestAutothon[Amazon[]TestAutothon[]]]&#xD;&#xA;Solution TestAutothon&#xD;&#xA;Solution TestAutothon" />
+  <ProjectBrowserState value="[Solution TestAutothon[Amazon[Source[]]TestAutothon[]]]&#xD;&#xA;Solution TestAutothon\Amazon\Source\Open_Product.cs&#xD;&#xA;Solution TestAutothon" />
   <StartupProject value="{5D5D6807-836B-4F0F-9AA4-09A248B7DB89}" />
 </Properties>

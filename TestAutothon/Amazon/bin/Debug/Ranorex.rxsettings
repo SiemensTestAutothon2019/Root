@@ -392,6 +392,24 @@ rxversion="9.1">
 		False
 	</Telemetry.Enabled>
 	<Endpoints.Data>
+		&lt;![CDATA[{
+  &quot;mobile.android.remote&quot;: [
+    {
+      &quot;Id&quot;: &quot;4f7575a6-f9aa-4251-8dbe-ab37a1ac0578&quot;,
+      &quot;ControlFlags&quot;: 0,
+      &quot;CoreData&quot;: {},
+      &quot;PluginData&quot;: {
+        &quot;Platform&quot;: &quot;Android&quot;,
+        &quot;ConnectionType&quot;: &quot;USB&quot;
+      },
+      &quot;MetaData&quot;: {},
+      &quot;Description&quot;: &quot;&quot;,
+      &quot;DisplayName&quot;: &quot;USB-ZY22269JPS&quot;,
+      &quot;Url&quot;: &quot;ZY22269JPS&quot;,
+      &quot;Tags&quot;: []
+    }
+  ]
+}]]&gt;
 	</Endpoints.Data>
 	<TestCase.Retry.Count>
 		0

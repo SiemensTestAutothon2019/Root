@@ -3,6 +3,50 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="01e248a8-40de-40e9-8268-985ba6044cf7"
+			name="ReportToPDFModule"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="PdfName"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
+					variablename="PdfName">
+					</var>
+					<var
+					dataname="PdfDirectoryPath"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="536f8a69-f246-4f2b-ae9e-1f62babb2ba9"
+					variablename="PdfDirectoryPath">
+					</var>
+					<var
+					dataname="Xml"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="c15f25ea-9409-4e1a-b76e-cd208bae6c56"
+					variablename="Xml">
+					</var>
+					<var
+					dataname="Details"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="b9993b89-d8cb-45fe-829b-42b0f8dd8a00"
+					variablename="Details">
+					</var>
+					<var
+					dataname="DeleteRanorexReport"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="7f788c18-962c-41ab-b591-9c3122512c5e"
+					variablename="DeleteRanorexReport">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="08e572ea-1101-4222-b58d-06ea5046838c"
+			name="EmailModule"
+			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
+			type="UserCode">
+			</testmodule>
+			<testmodule
 			id="090ac0ea-0f3b-4e96-8395-571da3edac69"
 			name="Recording1"
 			ref="4a1aee3e-0468-4afc-bcb8-5e89dfa0097e"
@@ -24,8 +68,32 @@
 					variableid="d19ac2b9-62f9-4106-afb8-08f14a424661"
 					variablename="URL">
 					</var>
+					<var
+					dataname="Browser"
+					datasourceid="556f368c-2320-4763-b377-ad51d267bd0e"
+					variableid="27713f87-9d31-4df3-8d99-f6b46f736cb0"
+					variablename="Browser">
+					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="4136e625-ba58-4913-8c0d-8dad013207eb"
+			name="AddProduct"
+			ref="4ee3041a-ef81-4b93-bab8-916df7d0e05f"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="ProductName"
+					datasourceid="556f368c-2320-4763-b377-ad51d267bd0e"
+					variableid="754cf9a8-1e36-460f-a459-75c38672d609"
+					variablename="ProductName">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="451db1d4-19bf-41f4-95a5-56b87aa5f38b"
+			name="TestCase3">
+			</testcase>
 			<testcase
 			id="556f368c-2320-4763-b377-ad51d267bd0e"
 			name="TestCase1">
@@ -33,6 +101,14 @@
 					<param
 					name="URL"
 					value="https://www.amazon.in/">
+					</param>
+					<param
+					name="ProductName"
+					value="T-shirt">
+					</param>
+					<param
+					name="Browser"
+					value="Ranorex Web Testing">
 					</param>
 				</parameters>
 			</testcase>
@@ -84,6 +160,54 @@
 					</var>
 				</databinding>
 			</testmodule>
+			<testcase
+			id="81145a44-25dd-4bf6-a635-9a3ee226130a"
+			name="TestCase2">
+				<parameters>
+					<param
+					name="PdfName"
+					value="test">
+					</param>
+					<param
+					name="PdfDirectoryPath"
+					value="F:\Reports">
+					</param>
+					<param
+					name="Xml"
+					value="">
+					</param>
+					<param
+					name="Details"
+					value="">
+					</param>
+					<param
+					name="DeleteRanorexReport"
+					value="false">
+					</param>
+					<param
+					name="URL"
+					value="www.amazon.com">
+					</param>
+					<param
+					name="Browser"
+					value="Chrome">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="916590f9-0754-4b3b-9b12-77341e0696f9"
+			name="CloseBrowser"
+			ref="81d8502e-c4ed-4a1c-a94f-59a7725bd5f9"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="556f368c-2320-4763-b377-ad51d267bd0e"
+					variableid="caf3c197-f169-45f9-92bd-e3d5efe0e50c"
+					variablename="URL">
+					</var>
+				</databinding>
+			</testmodule>
 			<teardown
 			id="a262223c-853a-4684-95fd-60b9aea4a5af"
 			name="teardown">
@@ -105,6 +229,26 @@
 					datasourceid="6f185794-82ad-4d82-920d-d4702a1bdc30"
 					variableid="3e21ea26-98ea-4355-8160-ecb21b5d340b"
 					variablename="CloseAutProcessIDVar">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
+			id="bcac1623-a1e1-4044-a4c2-362b52f0d547"
+			name="OpenBrowser"
+			ref="67d3e2fc-1f46-4b1c-a678-3ee614d731ae"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="d19ac2b9-62f9-4106-afb8-08f14a424661"
+					variablename="URL">
+					</var>
+					<var
+					dataname="Browser"
+					datasourceid="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					variableid="27713f87-9d31-4df3-8d99-f6b46f736cb0"
+					variablename="Browser">
 					</var>
 				</databinding>
 			</testmodule>
@@ -148,8 +292,36 @@
 						name="OpenBrowser">
 						</testmodule>
 						<testmodule
+						id="4136e625-ba58-4913-8c0d-8dad013207eb"
+						name="AddProduct">
+						</testmodule>
+						<testmodule
 						id="ad304284-e0f2-4aef-8613-9089e0428e5c"
 						name="Click_Cart">
+						</testmodule>
+						<testmodule
+						id="916590f9-0754-4b3b-9b12-77341e0696f9"
+						name="CloseBrowser">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="81145a44-25dd-4bf6-a635-9a3ee226130a"
+					name="TestCase2">
+						<testmodule
+						id="bcac1623-a1e1-4044-a4c2-362b52f0d547"
+						name="OpenBrowser">
+						</testmodule>
+						<testmodule
+						id="01e248a8-40de-40e9-8268-985ba6044cf7"
+						name="ReportToPDFModule">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="451db1d4-19bf-41f4-95a5-56b87aa5f38b"
+					name="TestCase3">
+						<testmodule
+						id="08e572ea-1101-4222-b58d-06ea5046838c"
+						name="EmailModule">
 						</testmodule>
 					</testcase>
 				</testcase>
@@ -163,13 +335,22 @@
 		<testconfiguration
 		name="TestRun">
 			<testcontainer
+			id="451db1d4-19bf-41f4-95a5-56b87aa5f38b">
+			</testcontainer>
+			<testcontainer
 			id="556f368c-2320-4763-b377-ad51d267bd0e">
 			</testcontainer>
 			<testcontainer
 			id="6f185794-82ad-4d82-920d-d4702a1bdc30">
 			</testcontainer>
+			<testcontainer
+			id="81145a44-25dd-4bf6-a635-9a3ee226130a">
+			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.dll
+		</reference>
 	</references>
 </testsuitedoc>

@@ -1,6 +1,15 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="Source\Open_Product.cs" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
-  <Properties name="projectSavedData" />
+  <Array name="files">
+    <Element value="Source\Open_Product.cs" />
+    <Element value="AmazonRepository.rxrep" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
 </Properties>

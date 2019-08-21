@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="634712d8a8d2906"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="USB-ZY22269JPS (Unknown)
+USB - ZY22269JPS"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="8/20/2019 2:52:36 AM"
+		timestampiso="2019-08-20T09:52:36"
+		endtime="8/20/2019 2:52:49 AM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.87s"
+			durationms="4865"
+			type="test-suite"
+			rid="126753c3d92c96c"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Amazon"
+			headertext="Amazon"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="4.77s"
+				durationms="4771"
+				type="test-case"
+				rid="3534fdf5aba7112"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase1"
+				testcontainerid="556f368c-2320-4763-b377-ad51d267bd0e"
+				headertext="TestCase1"
+				displayName="TestCase1"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="URL">
+						https://www.amazon.in/
+					</param>
+					<param
+						name="ProductName">
+						T-shirt
+					</param>
+					<param
+						name="Browser">
+						Ranorex Web Testing
+					</param>
+				</params>
+				<activity
+					result="Failed"
+					duration="4.74s"
+					durationms="4736"
+					type="test-module"
+					rid="1d08202aa02b4930"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenBrowser"
+					displayName="OpenBrowser"
+					moduleid="67d3e2fc-1f46-4b1c-a678-3ee614d731ae"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to open URL 'https://www.amazon.in/' with browser Ranorex Web Testing.
+					</errormessage>
+					<varbindings>
+						<varbinding
+							name="URL"
+							value="https://www.amazon.in/">
+						</varbinding>
+						<varbinding
+							name="Browser"
+							value="Ranorex Web Testing">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.159"
+						timeRelativeToTestModuleStartTime="00:00.035"
+						timeWallClock="02:52:44"
+						time="00:00.159"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$URL = 'https://www.amazon.in/', $Browser = 'Ranorex Web Testing'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.851"
+						timeRelativeToTestModuleStartTime="00:04.727"
+						timeWallClock="02:52:49"
+						time="00:04.851"
+						level="Error"
+						category="Module">
+						<message>
+							Failed to open URL 'https://www.amazon.in/' with browser Ranorex Web Testing.<br/>Failed to run application 'ranorex web testing'.<br/>The system cannot find the file specified
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized, Boolean clearCache, Boolean incognitoMode, Boolean clearCookies, Boolean instrument)
+   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized, Boolean clearCache, Boolean incognitoMode, Boolean clearCookies)
+   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized)
+   at Ranorex.Host.OpenBrowser(String url, String browserName, Boolean killExisting, Boolean maximized)
+   at Amazon.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\Amazon\Source\OpenBrowser.cs:line 69
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="f:\Root\TestAutothon\Amazon\Source\OpenBrowser.cs"
+							codeline="69"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

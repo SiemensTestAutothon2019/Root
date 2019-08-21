@@ -1,0 +1,8 @@
+F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

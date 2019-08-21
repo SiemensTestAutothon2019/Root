@@ -35,6 +35,16 @@ namespace Amazon
     		set { _URL = value; }
     	}
     	
+    	
+    	string _Browser = "";
+    	[TestVariable("27713f87-9d31-4df3-8d99-f6b46f736cb0")]
+    	public string Browser
+    	{
+    		get { return _Browser; }
+    		set { _Browser = value; }
+    	}
+    	
+    	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
@@ -56,7 +66,7 @@ namespace Amazon
             Delay.SpeedFactor = 1.0;
             Mouse.Enabled=false;
             
-            Host.Local.OpenBrowser(URL,"Chrome",false,false);
+            Host.Local.OpenBrowser(URL,Browser,false,false);
 			Report.Success(string.Format("Successfully opened {0} URL.",URL));
         }
     }

@@ -169,6 +169,12 @@
       <id>3e99d6b2-121c-463c-a2c9-b527a37efa5c</id>
     </Folder>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{169B3823-ED9D-4184-A440-9A9BC682B5B3}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
   </Import>
   <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
