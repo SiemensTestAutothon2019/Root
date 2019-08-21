@@ -5,7 +5,9 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="Source\Open_Product.cs" />
+    <Element value="Source\Delete_Item_Cart.cs" />
     <Element value="AmazonRepository.rxrep" />
+    <Element value="Source\Helper.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
