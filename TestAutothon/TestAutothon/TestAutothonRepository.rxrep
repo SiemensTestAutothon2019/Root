@@ -50,6 +50,36 @@ name="TestAutothonRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='www.youtube.com']//tag[#'page-manager']//span[@innertext='STeP-IN Forum']
 			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="c600e24a-120e-4083-82ab-f84a9dd79a1c"
+			name="VideosTab"
+			refimgid="bfd457ab-4b7d-467b-b1d4-8d2bcf6f2103"
+			refpath="/dom[@domain='www.youtube.com']//div[#'tabsContent']/tag[4]/div[@innertext='                    Videos                  ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'tabsContent']/?/?/div[@innertext&gt;'                    Videos']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="31193da7-ea40-4b82-b6f0-1a7a84250ae6"
+			name="StepInVideosAll"
+			refimgid="c185f74a-9c94-485c-974d-e837debb993d"
+			refpath="/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/tag[@tagname='ytd-section-list-renderer']/div[@id='contents']/tag[@tagname='ytd-item-section-renderer']/div[@id='contents']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="57299b54-89af-4595-b3ae-a6b6a468b3d1"
+			name="StepInVideo"
+			refimgid="1fc5abc7-821f-46a5-9766-5c749cd10852"
+			refpath="/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/tag[@tagname='ytd-section-list-renderer']/div[@id='contents']/tag[@tagname='ytd-item-section-renderer']/div[@id='contents']/tag[@tagname='ytd-grid-renderer']/div[@id='items']/tag[3]/div[@id='dismissable']/div[@id='details']/div[@id='meta']/h3/a[@id='video-title']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']/tag[3]/div[@id='dismissable']/div[@id='details']/div[@id='meta']/?/?/a[@id='video-title']
+			</item>
 			<basepath>
 				/dom[@domain='www.youtube.com']
 			</basepath>

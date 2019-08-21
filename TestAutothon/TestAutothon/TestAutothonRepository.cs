@@ -88,6 +88,9 @@ namespace TestAutothon
             RepoItemInfo _searchqueryInfo;
             RepoItemInfo _searchbuttonInfo;
             RepoItemInfo _stepinforumInfo;
+            RepoItemInfo _videostabInfo;
+            RepoItemInfo _stepinvideosallInfo;
+            RepoItemInfo _stepinvideoInfo;
 
             /// <summary>
             /// Creates a new StepInForumYouTube  folder.
@@ -98,6 +101,9 @@ namespace TestAutothon
                 _searchqueryInfo = new RepoItemInfo(this, "SearchQuery", ".//div[#'search-input']/input[@id='search']", 30000, null, "9310d706-cbf3-49f2-a160-4ca480edbeb7");
                 _searchbuttonInfo = new RepoItemInfo(this, "SearchButton", ".//button[#'search-icon-legacy']/tag[@tagname='yt-icon']", 30000, null, "67650128-7891-4e39-b1c8-15c0adaae44d");
                 _stepinforumInfo = new RepoItemInfo(this, "STePINForum", ".//tag[#'page-manager']//span[@innertext='STeP-IN Forum']", 30000, null, "ae9602e0-c7ee-43e9-9c29-d24369128682");
+                _videostabInfo = new RepoItemInfo(this, "VideosTab", ".//div[#'tabsContent']/?/?/div[@innertext>'                    Videos']", 30000, null, "c600e24a-120e-4083-82ab-f84a9dd79a1c");
+                _stepinvideosallInfo = new RepoItemInfo(this, "StepInVideosAll", ".//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']", 30000, null, "31193da7-ea40-4b82-b6f0-1a7a84250ae6");
+                _stepinvideoInfo = new RepoItemInfo(this, "StepInVideo", ".//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']/tag[3]/div[@id='dismissable']/div[@id='details']/div[@id='meta']/?/?/a[@id='video-title']", 30000, null, "57299b54-89af-4595-b3ae-a6b6a468b3d1");
             }
 
             /// <summary>
@@ -193,6 +199,78 @@ namespace TestAutothon
                 get
                 {
                     return _stepinforumInfo;
+                }
+            }
+
+            /// <summary>
+            /// The VideosTab item.
+            /// </summary>
+            [RepositoryItem("c600e24a-120e-4083-82ab-f84a9dd79a1c")]
+            public virtual Ranorex.DivTag VideosTab
+            {
+                get
+                {
+                    return _videostabInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The VideosTab item info.
+            /// </summary>
+            [RepositoryItemInfo("c600e24a-120e-4083-82ab-f84a9dd79a1c")]
+            public virtual RepoItemInfo VideosTabInfo
+            {
+                get
+                {
+                    return _videostabInfo;
+                }
+            }
+
+            /// <summary>
+            /// The StepInVideosAll item.
+            /// </summary>
+            [RepositoryItem("31193da7-ea40-4b82-b6f0-1a7a84250ae6")]
+            public virtual Ranorex.DivTag StepInVideosAll
+            {
+                get
+                {
+                    return _stepinvideosallInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The StepInVideosAll item info.
+            /// </summary>
+            [RepositoryItemInfo("31193da7-ea40-4b82-b6f0-1a7a84250ae6")]
+            public virtual RepoItemInfo StepInVideosAllInfo
+            {
+                get
+                {
+                    return _stepinvideosallInfo;
+                }
+            }
+
+            /// <summary>
+            /// The StepInVideo item.
+            /// </summary>
+            [RepositoryItem("57299b54-89af-4595-b3ae-a6b6a468b3d1")]
+            public virtual Ranorex.ATag StepInVideo
+            {
+                get
+                {
+                    return _stepinvideoInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The StepInVideo item info.
+            /// </summary>
+            [RepositoryItemInfo("57299b54-89af-4595-b3ae-a6b6a468b3d1")]
+            public virtual RepoItemInfo StepInVideoInfo
+            {
+                get
+                {
+                    return _stepinvideoInfo;
                 }
             }
         }
