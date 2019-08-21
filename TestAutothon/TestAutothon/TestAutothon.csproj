@@ -128,14 +128,47 @@
     <Compile Include="Program.cs">
       <id>50b65117-7738-4583-9f22-b07646dfd081</id>
     </Compile>
+    <Compile Include="Source\Capture_ScreenShot.cs">
+      <id>bd860701-0f29-437d-bde3-a887e63aa182</id>
+    </Compile>
+    <Compile Include="Source\Change_VideoQaulity.cs">
+      <id>932253bc-8f97-4859-862b-d06767507c67</id>
+    </Compile>
+    <Compile Include="Source\GetVideoName.cs">
+      <id>e5c1cb41-4457-423c-a431-46175d46a4a1</id>
+    </Compile>
     <Compile Include="Source\Helper.cs">
       <id>063c1386-c46e-4750-b025-80e9c23ac991</id>
+    </Compile>
+    <Compile Include="Source\Navigate_Tab.cs">
+      <id>7009529f-8a3c-40dd-85b5-685a88e0a6c4</id>
     </Compile>
     <Compile Include="Source\Open_Browser.cs">
       <id>8c1bf6ca-ae09-40af-8c3a-468c538e8035</id>
     </Compile>
+    <Compile Include="Source\ReadUpcomimgVideoList.cs">
+      <id>f49063b5-3cfe-4c4e-85f6-8658647f7163</id>
+    </Compile>
+    <Compile Include="Source\ScrollVideo.cs">
+      <id>e273ba7b-3113-4b5a-af83-d6ba6f341c7c</id>
+    </Compile>
     <Compile Include="Source\Search_Click.cs">
       <id>cbfdc18a-3c10-4a93-9af9-0ac45ec4efa5</id>
+    </Compile>
+    <Compile Include="Source\Select_Channel.cs">
+      <id>96c4d0a3-31b3-4f39-bbc8-c3c645b7fbeb</id>
+    </Compile>
+    <Compile Include="Source\Select_Video.cs">
+      <id>0b916566-8be1-43e6-86b7-96f52100b9d7</id>
+    </Compile>
+    <Compile Include="Source\UpdateJsonFile.cs">
+      <id>2c6e7625-63cc-4711-a771-5a4bcc75e890</id>
+    </Compile>
+    <Compile Include="Source\UploadFile.cs">
+      <id>f46da844-47bd-48c1-bae9-694ad62fa0d1</id>
+    </Compile>
+    <Compile Include="Source\Validate_UploadFile.cs">
+      <id>ae5f430d-e52d-45c3-82d2-c2c6351e9e2c</id>
     </Compile>
     <Compile Include="TestAutothonRepository.cs">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
