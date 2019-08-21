@@ -323,6 +323,36 @@
             The STePINForum item info.
             </summary>
         </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.VideosTab">
+            <summary>
+            The VideosTab item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.VideosTabInfo">
+            <summary>
+            The VideosTab item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StepInVideosAll">
+            <summary>
+            The StepInVideosAll item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StepInVideosAllInfo">
+            <summary>
+            The StepInVideosAll item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StepInVideo">
+            <summary>
+            The StepInVideo item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StepInVideoInfo">
+            <summary>
+            The StepInVideo item info.
+            </summary>
+        </member>
         <member name="T:__RxMain.__RxProgram">
             <summary>
             Modified Program class that ensures that the Ranorex System gets initialized and cleaned up

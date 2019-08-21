@@ -46,7 +46,7 @@ name="TestAutothonRepository">
 			capname="spantag"
 			id="ae9602e0-c7ee-43e9-9c29-d24369128682"
 			name="STePINForum"
-			refimgid="873426b5-2370-4ee4-b7d6-3ca3de052e9e"
+			refimgid="ed2f0380-df4c-4a7c-b8ab-f326c4df6eb8"
 			searchtimeout="30000ms">
 				/dom[@domain='www.youtube.com']//tag[#'page-manager']//span[@innertext='STeP-IN Forum']
 			</item>

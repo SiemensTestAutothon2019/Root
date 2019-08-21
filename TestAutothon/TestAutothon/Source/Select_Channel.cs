@@ -45,6 +45,17 @@ namespace TestAutothon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            Mouse.Enabled = false;
+            
+            TestAutothonRepository repo = TestAutothonRepository.Instance;
+            WebElement elmYoutubeChannel;
+            if(repo.StepInForumYouTube.STePINForumInfo.Exists(10000,out elmYoutubeChannel))
+            {
+            	elmYoutubeChannel.Click();
+            	Report.Success("Successfully clicked on StepInForum you tube channel.");
+            }
+            else
+            	throw new RanorexException("Failed to find StepInForum youtube channel.");
         }
     }
 }

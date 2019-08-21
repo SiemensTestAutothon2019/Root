@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d2e632ea8dd404e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 11:33:43 PM"
+		timestampiso="2019-08-21T06:33:43"
+		endtime="8/20/2019 11:34:08 PM"
+		timeoutfactor="1"
+		module="Select_Channel">
+		<detail>
+			Select_Channel
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.634"
+			timeRelativeToTestModuleStartTime="00:21.634"
+			timeWallClock="23:34:05"
+			time="00:21.634"
+			level="Success"
+			category="User">
+			<message>
+				Successfully clicked on StepInForum you tube channel.
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\Select_Channel.cs"
+				codeline="55"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>
