@@ -4,10 +4,244 @@
         <name>TestAutothon</name>
     </assembly>
     <members>
+        <member name="T:TestAutothon.Capture_ScreenShot">
+            <summary>
+            Description of Capture_ScreenShot.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Capture_ScreenShot.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Capture_ScreenShot.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Change_VideoQaulity">
+            <summary>
+            Description of Change_VideoQaulity.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Change_VideoQaulity.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Change_VideoQaulity.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.GetVideoName">
+            <summary>
+            Description of GetVideoName.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.GetVideoName.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.GetVideoName.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:TestAutothon.Helper">
             <summary>
             Description of Helper.
             </summary>
+        </member>
+        <member name="T:TestAutothon.Navigate_Tab">
+            <summary>
+            Description of Navigate_Tab.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Navigate_Tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Navigate_Tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Open_Browser">
+            <summary>
+            Description of Open_Browser.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Open_Browser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Open_Browser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.ReadUpcomimgVideoList">
+            <summary>
+            Description of ReadUpcomimgVideoList.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.ReadUpcomimgVideoList.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.ReadUpcomimgVideoList.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.ScrollVideo">
+            <summary>
+            Description of ScrollVideo.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.ScrollVideo.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.ScrollVideo.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Search_Click">
+            <summary>
+            Description of Search_Click.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Search_Click.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Search_Click.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Select_Channel">
+            <summary>
+            Description of Select_Channel.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Select_Channel.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Select_Channel.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Select_Video">
+            <summary>
+            Description of Select_Video.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Select_Video.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Select_Video.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.UpdateJsonFile">
+            <summary>
+            Description of UpdateJsonFile.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.UpdateJsonFile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.UpdateJsonFile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.UploadFile">
+            <summary>
+            Description of UploadFile.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.UploadFile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.UploadFile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:TestAutothon.Validate_UploadFile">
+            <summary>
+            Description of Validate_UploadFile.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Validate_UploadFile.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Validate_UploadFile.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:TestAutothon.TestAutothonRepository">
             <summary>
@@ -29,9 +263,64 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:TestAutothon.TestAutothonRepository.StepInForumYouTube">
+            <summary>
+            The StepInForumYouTube folder.
+            </summary>
+        </member>
         <member name="T:TestAutothon.TestAutothonRepositoryFolders">
             <summary>
             Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder">
+            <summary>
+            The StepInForumYouTubeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new StepInForumYouTube  folder.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.SearchQuery">
+            <summary>
+            The SearchQuery item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.SearchQueryInfo">
+            <summary>
+            The SearchQuery item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.SearchButton">
+            <summary>
+            The SearchButton item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.SearchButtonInfo">
+            <summary>
+            The SearchButton item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.STePINForum">
+            <summary>
+            The STePINForum item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.STePINForumInfo">
+            <summary>
+            The STePINForum item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

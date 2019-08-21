@@ -26,6 +26,15 @@ namespace TestAutothon
     [TestModule("DDC5D006-F210-43EF-8770-384DE9CB8121", ModuleType.UserCode, 1)]
     public class Search_Click : ITestModule
     {
+    	
+    	string _Text = "Step-inforum";
+    	[TestVariable("fd664167-ee10-4624-8b39-2e90fcb76090")]
+    	public string Text
+    	{
+    		get { return _Text; }
+    		set { _Text = value; }
+    	}
+    	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
@@ -45,6 +54,19 @@ namespace TestAutothon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            
+            TestAutothonRepository repo = TestAutothonRepository.Instance;
+            WebElement elmAddText,elmSearchButton;
+            if(repo.StepInForumYouTube.SearchQueryInfo.Exists(10000,out elmAddText))
+            {
+            	elmAddText.PressKeys(Text);
+            	elmSearchButton = repo.StepInForumYouTube.SearchButton;
+            	elmSearchButton.Click();
+            	Report.Success(string.Format("Successfully searched the {0}.",Text));
+            
+            }
+            else
+            	throw new RanorexException("Failed to find search query.");
         }
     }
 }

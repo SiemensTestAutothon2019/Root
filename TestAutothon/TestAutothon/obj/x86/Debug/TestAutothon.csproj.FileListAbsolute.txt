@@ -12,20 +12,6 @@ C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\bin\Debug\TestAutotho
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
 C:\Users\Asmi\Documents\GIT\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtmg
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtst
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe.config
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.xml
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe
-F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.pdb
-F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.Core.Resolver.dll
-F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
-F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
-F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
-F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex Automation Helpers.dll
-F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.ReportToPDF.exe
-F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex Automation Helpers.pdb
-F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex Automation Helpers.xml
 D:\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtmg
 D:\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtst
 D:\Git\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe.config
@@ -40,3 +26,13 @@ D:\Git\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex Automation Helpers.xml
 D:\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
 D:\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
 D:\Git\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtmg
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.rxtst
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe.config
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.xml
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.exe
+F:\Root\TestAutothon\TestAutothon\bin\Debug\TestAutothon.pdb
+F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
+F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
+F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb

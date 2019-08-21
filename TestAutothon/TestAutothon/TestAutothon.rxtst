@@ -34,38 +34,6 @@
 			name="ReportToPDFModule"
 			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
 			type="UserCode">
-				<databinding>
-					<var
-					dataname="PdfName"
-					datasourceid="0c95e9c4-35e4-4aeb-8749-0d0df2062060"
-					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
-					variablename="PdfName">
-					</var>
-					<var
-					dataname="PdfDirectoryPath"
-					datasourceid="0c95e9c4-35e4-4aeb-8749-0d0df2062060"
-					variableid="536f8a69-f246-4f2b-ae9e-1f62babb2ba9"
-					variablename="PdfDirectoryPath">
-					</var>
-					<var
-					dataname="Xml"
-					datasourceid="0c95e9c4-35e4-4aeb-8749-0d0df2062060"
-					variableid="c15f25ea-9409-4e1a-b76e-cd208bae6c56"
-					variablename="Xml">
-					</var>
-					<var
-					dataname="Details"
-					datasourceid="0c95e9c4-35e4-4aeb-8749-0d0df2062060"
-					variableid="b9993b89-d8cb-45fe-829b-42b0f8dd8a00"
-					variablename="Details">
-					</var>
-					<var
-					dataname="DeleteRanorexReport"
-					datasourceid="0c95e9c4-35e4-4aeb-8749-0d0df2062060"
-					variableid="7f788c18-962c-41ab-b591-9c3122512c5e"
-					variablename="DeleteRanorexReport">
-					</var>
-				</databinding>
 			</testmodule>
 			<teardown
 			id="6dcf2db8-c79a-48c5-857d-735a232684a8"
@@ -134,7 +102,7 @@
 	</testconfigurations>
 	<references>
 		<reference>
-			Ranorex Automation Helpers.dll
+			Ranorex Automation Helpers.csproj
 		</reference>
 	</references>
 </testsuitedoc>

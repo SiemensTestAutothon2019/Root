@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2a10f5d8f3f5c133"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 11:16:33 PM"
+		timestampiso="2019-08-21T06:16:33"
+		endtime="8/20/2019 11:16:49 PM"
+		timeoutfactor="1"
+		module="Search_Click">
+		<detail>
+			Search_Click
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.863"
+			timeRelativeToTestModuleStartTime="00:09.863"
+			timeWallClock="23:16:43"
+			time="00:09.863"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>Text
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.758"
+			timeRelativeToTestModuleStartTime="00:15.758"
+			timeWallClock="23:16:49"
+			time="00:15.758"
+			level="Success"
+			category="User">
+			<message>
+				Successfully searched the Step-inforum.
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\Search_Click.cs"
+				codeline="65"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

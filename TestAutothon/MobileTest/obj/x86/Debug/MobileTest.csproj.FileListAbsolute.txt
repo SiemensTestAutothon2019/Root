@@ -1,0 +1,10 @@
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.rxtmg
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.rxtst
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.exe.config
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.xml
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.exe
+F:\Root\TestAutothon\MobileTest\bin\Debug\MobileTest.pdb
+F:\Root\TestAutothon\MobileTest\bin\Debug\Ranorex.Core.Resolver.dll
+F:\Root\TestAutothon\MobileTest\obj\x86\Debug\MobileTest.csprojResolveAssemblyReference.cache
+F:\Root\TestAutothon\MobileTest\obj\x86\Debug\MobileTest.exe
+F:\Root\TestAutothon\MobileTest\obj\x86\Debug\MobileTest.pdb

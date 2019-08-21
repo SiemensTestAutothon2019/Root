@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="Source\Search_Click.cs" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="TestAutothon.rxtst" />
+    <Element value="TestAutothonRepository.rxrep" />
+    <Element value="Source\Search_Click.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
