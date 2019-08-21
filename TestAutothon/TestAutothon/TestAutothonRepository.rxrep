@@ -12,6 +12,63 @@ name="TestAutothonRepository">
 	name="Root"
 	searchtimeout="0ms"
 	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="bbb80d28-40ed-429b-963d-836de6934076"
+		isrooted="True"
+		name="StepInForumYouTube"
+		refpath="/dom[@domain='www.youtube.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9310d706-cbf3-49f2-a160-4ca480edbeb7"
+			name="SearchQuery"
+			refimgid="668a0da8-d95f-4dbe-855f-c4cd55448a64"
+			refpath="/dom[@domain='www.youtube.com']//div[#'search-input']/input[@id='search']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'search-input']/input[@id='search']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="67650128-7891-4e39-b1c8-15c0adaae44d"
+			name="SearchButton"
+			refimgid="27b44271-d3bc-4ffd-b33f-977c15f1630d"
+			refpath="/dom[@domain='www.youtube.com']//button[#'search-icon-legacy']/tag[@tagname='yt-icon']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//button[#'search-icon-legacy']/tag[@tagname='yt-icon']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="ae9602e0-c7ee-43e9-9c29-d24369128682"
+			name="STePINForum"
+			refimgid="873426b5-2370-4ee4-b7d6-3ca3de052e9e"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//tag[#'page-manager']//span[@innertext='STeP-IN Forum']
+			</item>
+			<basepath>
+				/dom[@domain='www.youtube.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>

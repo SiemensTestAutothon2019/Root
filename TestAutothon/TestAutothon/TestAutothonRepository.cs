@@ -27,6 +27,7 @@ namespace TestAutothon
     public partial class TestAutothonRepository : RepoGenBaseFolder
     {
         static TestAutothonRepository instance = new TestAutothonRepository();
+        TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder _stepinforumyoutube;
 
         /// <summary>
         /// Gets the singleton class instance representing the TestAutothonRepository element repository.
@@ -43,6 +44,7 @@ namespace TestAutothon
         public TestAutothonRepository() 
             : base("TestAutothonRepository", "/", null, 0, false, "b4292495-4ad5-4e0c-bdba-afa9ef290732", ".\\RepositoryImages\\TestAutothonRepositoryb4292495.rximgres")
         {
+            _stepinforumyoutube = new TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace TestAutothon
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The StepInForumYouTube folder.
+        /// </summary>
+        [RepositoryFolder("bbb80d28-40ed-429b-963d-836de6934076")]
+        public virtual TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder StepInForumYouTube
+        {
+            get { return _stepinforumyoutube; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,124 @@ namespace TestAutothon
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class TestAutothonRepositoryFolders
     {
+        /// <summary>
+        /// The StepInForumYouTubeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bbb80d28-40ed-429b-963d-836de6934076")]
+        public partial class StepInForumYouTubeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _searchqueryInfo;
+            RepoItemInfo _searchbuttonInfo;
+            RepoItemInfo _stepinforumInfo;
+
+            /// <summary>
+            /// Creates a new StepInForumYouTube  folder.
+            /// </summary>
+            public StepInForumYouTubeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("StepInForumYouTube", "/dom[@domain='www.youtube.com']", parentFolder, 30000, null, false, "bbb80d28-40ed-429b-963d-836de6934076", "")
+            {
+                _searchqueryInfo = new RepoItemInfo(this, "SearchQuery", ".//div[#'search-input']/input[@id='search']", 30000, null, "9310d706-cbf3-49f2-a160-4ca480edbeb7");
+                _searchbuttonInfo = new RepoItemInfo(this, "SearchButton", ".//button[#'search-icon-legacy']/tag[@tagname='yt-icon']", 30000, null, "67650128-7891-4e39-b1c8-15c0adaae44d");
+                _stepinforumInfo = new RepoItemInfo(this, "STePINForum", ".//tag[#'page-manager']//span[@innertext='STeP-IN Forum']", 30000, null, "ae9602e0-c7ee-43e9-9c29-d24369128682");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bbb80d28-40ed-429b-963d-836de6934076")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bbb80d28-40ed-429b-963d-836de6934076")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SearchQuery item.
+            /// </summary>
+            [RepositoryItem("9310d706-cbf3-49f2-a160-4ca480edbeb7")]
+            public virtual Ranorex.InputTag SearchQuery
+            {
+                get
+                {
+                    return _searchqueryInfo.CreateAdapter<Ranorex.InputTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchQuery item info.
+            /// </summary>
+            [RepositoryItemInfo("9310d706-cbf3-49f2-a160-4ca480edbeb7")]
+            public virtual RepoItemInfo SearchQueryInfo
+            {
+                get
+                {
+                    return _searchqueryInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SearchButton item.
+            /// </summary>
+            [RepositoryItem("67650128-7891-4e39-b1c8-15c0adaae44d")]
+            public virtual Ranorex.WebElement SearchButton
+            {
+                get
+                {
+                    return _searchbuttonInfo.CreateAdapter<Ranorex.WebElement>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SearchButton item info.
+            /// </summary>
+            [RepositoryItemInfo("67650128-7891-4e39-b1c8-15c0adaae44d")]
+            public virtual RepoItemInfo SearchButtonInfo
+            {
+                get
+                {
+                    return _searchbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The STePINForum item.
+            /// </summary>
+            [RepositoryItem("ae9602e0-c7ee-43e9-9c29-d24369128682")]
+            public virtual Ranorex.SpanTag STePINForum
+            {
+                get
+                {
+                    return _stepinforumInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The STePINForum item info.
+            /// </summary>
+            [RepositoryItemInfo("ae9602e0-c7ee-43e9-9c29-d24369128682")]
+            public virtual RepoItemInfo STePINForumInfo
+            {
+                get
+                {
+                    return _stepinforumInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }
