@@ -38,6 +38,9 @@
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\APIClient\APIClient\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Ranorex.Bootstrapper">
       <Private>False</Private>
     </Reference>
@@ -113,6 +116,12 @@
     </Reference>
     <Reference Include="System.Drawing">
     </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\..\APIClient\APIClient\bin\Debug\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\..\APIClient\packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms">
     </Reference>
     <Reference Include="System.Xml">
@@ -127,6 +136,18 @@
     </Compile>
     <Compile Include="Program.cs">
       <id>50b65117-7738-4583-9f22-b07646dfd081</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>0f55b107-42bb-44f5-b625-4c588b2c616e</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cfcbbe2f-7058-4e61-b605-c200cb5f099c</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>0f55b107-42bb-44f5-b625-4c588b2c616e</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>57b00114-c6f5-4bdc-8a2b-45070708460e</id>
     </Compile>
     <Compile Include="Source\Capture_ScreenShot.cs">
       <id>bd860701-0f29-437d-bde3-a887e63aa182</id>
@@ -145,6 +166,9 @@
     </Compile>
     <Compile Include="Source\Open_Browser.cs">
       <id>8c1bf6ca-ae09-40af-8c3a-468c538e8035</id>
+    </Compile>
+    <Compile Include="Source\Program.cs">
+      <id>a66ead3e-0150-474b-8fe3-562e75f5a330</id>
     </Compile>
     <Compile Include="Source\ReadUpcomimgVideoList.cs">
       <id>f49063b5-3cfe-4c4e-85f6-8658647f7163</id>
@@ -180,6 +204,11 @@
   <ItemGroup>
     <None Include="app.config">
       <id>1606d47f-2ac3-4469-bae5-329b6e2fb893</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>
+      <id>0f55b107-42bb-44f5-b625-4c588b2c616e</id>
+      <recordtableid>410a1778-b524-4c5a-af4f-4097d5e01873</recordtableid>
     </None>
     <None Include="TestAutothonRepository.rximg">
       <BoundTo>326441c9-9733-4a26-9a65-3bfea5ebf814</BoundTo>

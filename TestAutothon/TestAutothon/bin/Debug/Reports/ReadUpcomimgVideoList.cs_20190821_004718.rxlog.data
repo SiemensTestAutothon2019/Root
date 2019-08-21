@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="b634f23a59b5a44"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/21/2019 12:47:22 AM"
+		timestampiso="2019-08-21T07:47:22"
+		endtime="8/21/2019 12:48:59 AM"
+		timeoutfactor="1"
+		module="ReadUpcomimgVideoList">
+		<detail>
+			ReadUpcomimgVideoList
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="01:35.885"
+			timeRelativeToTestModuleStartTime="01:35.885"
+			timeWallClock="00:48:58"
+			time="01:35.885"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='www.youtube.com']//div[#'related']/?/?/div[@id='items']//div[@Id='contents']//div[@id='dismissable']//span[@id='video-title']
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\ReadUpcomimgVideoList.cs"
+				codeline="53"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:36.390"
+			timeRelativeToTestModuleStartTime="01:36.390"
+			timeWallClock="00:48:59"
+			time="01:36.390"
+			level="Info"
+			category="User">
+			<message>
+				/dom[@domain='www.youtube.com']//div[#'details']//span[@id='video-title']
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\ReadUpcomimgVideoList.cs"
+				codeline="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

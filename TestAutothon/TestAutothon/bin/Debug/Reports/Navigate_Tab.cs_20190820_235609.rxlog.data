@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1a6cd8c93214258"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 11:56:13 PM"
+		timestampiso="2019-08-21T06:56:13"
+		endtime="8/20/2019 11:56:29 PM"
+		timeoutfactor="1"
+		module="Navigate_Tab">
+		<detail>
+			Navigate_Tab
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.926"
+			timeRelativeToTestModuleStartTime="00:09.926"
+			timeWallClock="23:56:23"
+			time="00:09.926"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>TabName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.658"
+			timeRelativeToTestModuleStartTime="00:16.658"
+			timeWallClock="23:56:29"
+			time="00:16.658"
+			level="Success"
+			category="User">
+			<message>
+				Successfully clicked on VIDEOS tab.
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\Navigate_Tab.cs"
+				codeline="64"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

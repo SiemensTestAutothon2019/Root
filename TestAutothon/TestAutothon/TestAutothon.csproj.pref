@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="Source\Search_Click.cs" />
+  <Array name="active" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|F:\Root\TestAutothon\TestAutothon\Source\ReadUpcomimgVideoList.cs|52|13|True|Break||" />
   </Array>
-  <Array name="bookmarks" />
   <Array name="files">
-    <Element value="TestAutothonRepository.rxrep" />
     <Element value="Source\Search_Click.cs" />
+    <Element value="TestAutothonRepository.rxrep" />
+    <Element value="Source\ReadUpcomimgVideoList.cs" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

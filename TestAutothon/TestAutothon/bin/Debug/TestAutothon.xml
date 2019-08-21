@@ -4,6 +4,45 @@
         <name>TestAutothon</name>
     </assembly>
     <members>
+        <member name="T:TestAutothon.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TestAutothon.Recording1.repo">
+            <summary>
+            Holds an instance of the TestAutothonRepository repository.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TestAutothon.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TestAutothon.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:TestAutothon.Capture_ScreenShot">
             <summary>
             Description of Capture_ScreenShot.
@@ -98,6 +137,11 @@
             <remarks>You should not call this method directly, instead pass the module
             instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
             that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:APIClient.JSONWrapper">
+            <summary>
+            Wrapper for JSON file format
+            </summary>
         </member>
         <member name="T:TestAutothon.ReadUpcomimgVideoList">
             <summary>
@@ -351,6 +395,111 @@
         <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StepInVideoInfo">
             <summary>
             The StepInVideo item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.VideoList">
+            <summary>
+            The VideoList item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.VideoListInfo">
+            <summary>
+            The VideoList item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StyleScopeYtdWatchNextSecondaryRes">
+            <summary>
+            The StyleScopeYtdWatchNextSecondaryRes item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.StyleScopeYtdWatchNextSecondaryResInfo">
+            <summary>
+            The StyleScopeYtdWatchNextSecondaryRes item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.StepInForumYouTubeAppFolder.MoviePlayer">
+            <summary>
+            The MoviePlayer folder.
+            </summary>
+        </member>
+        <member name="T:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder">
+            <summary>
+            The MoviePlayerFolder folder.
+            </summary>
+        </member>
+        <member name="M:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MoviePlayer  folder.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.Settings">
+            <summary>
+            The Settings item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SettingsInfo">
+            <summary>
+            The Settings item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SpanTag360p">
+            <summary>
+            The SpanTag360p item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SpanTag360pInfo">
+            <summary>
+            The SpanTag360p item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpMenuitemLabel">
+            <summary>
+            The YtpMenuitemLabel item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpMenuitemLabelInfo">
+            <summary>
+            The YtpMenuitemLabel item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpButtonYtpSettingsButton">
+            <summary>
+            The YtpButtonYtpSettingsButton item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpButtonYtpSettingsButtonInfo">
+            <summary>
+            The YtpButtonYtpSettingsButton item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpMenuitemContent">
+            <summary>
+            The YtpMenuitemContent item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.YtpMenuitemContentInfo">
+            <summary>
+            The YtpMenuitemContent item info.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:TestAutothon.TestAutothonRepositoryFolders.MoviePlayerFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

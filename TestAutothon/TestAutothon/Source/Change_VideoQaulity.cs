@@ -45,6 +45,12 @@ namespace TestAutothon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            
+            var repo = TestAutothonRepository.Instance;
+            var settings = repo.StepInForumYouTube.MoviePlayer.Settings;
+            settings.Click();
+            
+
         }
     }
 }

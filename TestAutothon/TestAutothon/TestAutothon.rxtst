@@ -29,16 +29,110 @@
 					</param>
 				</parameters>
 			</testcase>
+			<testcase
+			id="1a43127c-a180-4f88-b852-debf6fcc9239"
+			name="TestCase2">
+				<parameters>
+					<param
+					name="TabName"
+					value="Video">
+					</param>
+				</parameters>
+			</testcase>
+			<testmodule
+			id="2dd19a1e-5c01-42e6-ae04-f1de8ffc8e40"
+			name="Change_VideoQaulity"
+			ref="a501e764-cb28-40e7-97c0-5ef9639d1794"
+			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="38cecbde-b08d-4f88-8440-fd7631eb8192"
+			name="Select_Channel"
+			ref="cdb1d30b-8b8a-4ac5-b03c-b285f6e048cb"
+			type="UserCode">
+			</testmodule>
+			<testmodule
+			id="54599727-8e73-4d39-99a5-5fa8d14585b2"
+			name="Search_Click"
+			ref="ddc5d006-f210-43ef-8770-384de9cb8121"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="Text"
+					datasourceid="56b0938b-b19b-48c9-a3f3-1eb07e47d3d3"
+					variableid="fd664167-ee10-4624-8b39-2e90fcb76090"
+					variablename="Text">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="56b0938b-b19b-48c9-a3f3-1eb07e47d3d3"
+			name="TestCase1">
+				<parameters>
+					<param
+					name="Text"
+					value="step-in forum">
+					</param>
+				</parameters>
+			</testcase>
 			<testmodule
 			id="5b078553-1298-4812-af95-3744e262e126"
 			name="ReportToPDFModule"
 			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
 			type="UserCode">
 			</testmodule>
+			<testmodule
+			id="62af9be0-1118-4725-ae5c-857e6a0daee1"
+			name="Open_Browser"
+			ref="4a0b4eae-acc4-436b-9178-dbc6f364152a"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="URL"
+					datasourceid="f30aea9d-a0c4-46af-98e4-66009a1671ef"
+					variableid="cf32ee9f-2278-4f3c-9e29-82eebe1b26e1"
+					variablename="URL">
+					</var>
+					<var
+					dataname="BrowserType"
+					datasourceid="f30aea9d-a0c4-46af-98e4-66009a1671ef"
+					variableid="15f78a00-a9c1-45e5-b04a-d036246b97b5"
+					variablename="BrowserType">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="631af58c-e8c4-41fd-bb8e-d0b114711a5c"
+			name="TestCase4">
+			</testcase>
 			<teardown
 			id="6dcf2db8-c79a-48c5-857d-735a232684a8"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="a3e4d761-c1aa-4ece-86fe-ab318dc5e72c"
+			name="ScrollVideo"
+			ref="1c2076b6-875e-4d66-ae41-2d4bdb13dfbb"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="VideoName"
+					datasourceid="b85a3937-fac2-41b7-b762-d78a008d91c5"
+					variableid="918b6a8e-6f7d-4c8a-9230-be2d4c29f455"
+					variablename="VideoName">
+					</var>
+				</databinding>
+			</testmodule>
+			<testcase
+			id="b85a3937-fac2-41b7-b762-d78a008d91c5"
+			name="TestCase3">
+				<parameters>
+					<param
+					name="VideoName"
+					value="summit2019">
+					</param>
+				</parameters>
+			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -58,9 +152,33 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="e218aa8e-a511-43b5-aecd-4ce7fbe2ba81"
+			name="Navigate_Tab"
+			ref="f529b6cb-cf78-4f52-b7b7-84b9108c349d"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="TabName"
+					datasourceid="1a43127c-a180-4f88-b852-debf6fcc9239"
+					variableid="bc5faa3e-4b17-41fe-aa17-41d0ab98e51b"
+					variablename="TabName">
+					</var>
+				</databinding>
+			</testmodule>
 			<testcase
 			id="f30aea9d-a0c4-46af-98e4-66009a1671ef"
 			name="TestCase">
+				<parameters>
+					<param
+					name="URL"
+					value="www.youtube.com">
+					</param>
+					<param
+					name="BrowserType"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -73,6 +191,46 @@
 					<testcase
 					id="f30aea9d-a0c4-46af-98e4-66009a1671ef"
 					name="TestCase">
+						<testmodule
+						id="62af9be0-1118-4725-ae5c-857e6a0daee1"
+						name="Open_Browser">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="56b0938b-b19b-48c9-a3f3-1eb07e47d3d3"
+					name="TestCase1">
+						<testmodule
+						id="54599727-8e73-4d39-99a5-5fa8d14585b2"
+						name="Search_Click">
+						</testmodule>
+						<testmodule
+						id="38cecbde-b08d-4f88-8440-fd7631eb8192"
+						name="Select_Channel">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="1a43127c-a180-4f88-b852-debf6fcc9239"
+					name="TestCase2">
+						<testmodule
+						id="e218aa8e-a511-43b5-aecd-4ce7fbe2ba81"
+						name="Navigate_Tab">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="b85a3937-fac2-41b7-b762-d78a008d91c5"
+					name="TestCase3">
+						<testmodule
+						id="a3e4d761-c1aa-4ece-86fe-ab318dc5e72c"
+						name="ScrollVideo">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="631af58c-e8c4-41fd-bb8e-d0b114711a5c"
+					name="TestCase4">
+						<testmodule
+						id="2dd19a1e-5c01-42e6-ae04-f1de8ffc8e40"
+						name="Change_VideoQaulity">
+						</testmodule>
 					</testcase>
 					<teardown
 					id="6dcf2db8-c79a-48c5-857d-735a232684a8"
@@ -96,11 +254,26 @@
 			id="0c95e9c4-35e4-4aeb-8749-0d0df2062060">
 			</testcontainer>
 			<testcontainer
+			id="1a43127c-a180-4f88-b852-debf6fcc9239">
+			</testcontainer>
+			<testcontainer
+			id="56b0938b-b19b-48c9-a3f3-1eb07e47d3d3">
+			</testcontainer>
+			<testcontainer
+			id="631af58c-e8c4-41fd-bb8e-d0b114711a5c">
+			</testcontainer>
+			<testcontainer
+			id="b85a3937-fac2-41b7-b762-d78a008d91c5">
+			</testcontainer>
+			<testcontainer
 			id="f30aea9d-a0c4-46af-98e4-66009a1671ef">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Newtonsoft.Json.dll
+		</reference>
 		<reference>
 			Ranorex Automation Helpers.csproj
 		</reference>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="8be83a7c338931e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/20/2019 11:54:59 PM"
+		timestampiso="2019-08-21T06:54:59"
+		endtime="8/20/2019 11:55:18 PM"
+		timeoutfactor="1"
+		module="Navigate_Tab">
+		<detail>
+			Navigate_Tab
+		</detail>
+		<errormessage>
+			Invalid location string format: 'VIDEOS'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.493"
+			timeRelativeToTestModuleStartTime="00:09.493"
+			timeWallClock="23:55:09"
+			time="00:09.493"
+			level="Warn"
+			category="Data"
+			errimg="images_Navigate_d16efbc1\Navigate_d16efbc1_e26108e6_trace.jpg"
+			errthumb="images_Navigate_d16efbc1\Navigate_d16efbc1_e26108e6_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>TabName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.408"
+			timeRelativeToTestModuleStartTime="00:18.408"
+			timeWallClock="23:55:18"
+			time="00:18.408"
+			level="Error"
+			category="Module"
+			errimg="images_Navigate_d16efbc1\Navigate_d16efbc1_ca8b2299_trace.jpg"
+			errthumb="images_Navigate_d16efbc1\Navigate_d16efbc1_ca8b2299_trace_thumb.jpg">
+			<message>
+				Invalid location string format: 'VIDEOS'.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Location.Parse(String locationString)
+   at Ranorex.Location.op_Implicit(String location)
+   at TestAutothon.Navigate_Tab.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\TestAutothon\Source\Navigate_Tab.cs:line 63
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\Navigate_Tab.cs"
+				codeline="63"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

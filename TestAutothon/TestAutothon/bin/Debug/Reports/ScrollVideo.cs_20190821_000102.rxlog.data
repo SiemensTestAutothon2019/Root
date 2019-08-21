@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="f5634d779abf5da"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/21/2019 12:01:06 AM"
+		timestampiso="2019-08-21T07:01:06"
+		endtime="8/21/2019 12:01:21 AM"
+		timeoutfactor="1"
+		module="ScrollVideo">
+		<detail>
+			ScrollVideo
+		</detail>
+		<errormessage>
+			Invalid RxPath '/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']\a[@innertext='DSTC 2019 | Khimananad Upreti''.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.621"
+			timeRelativeToTestModuleStartTime="00:10.621"
+			timeWallClock="00:01:17"
+			time="00:10.621"
+			level="Warn"
+			category="Data"
+			errimg="images_ScrollVi_14be08a7\ScrollVi_14be08a7_3dd90f97_trace.jpg"
+			errthumb="images_ScrollVi_14be08a7\ScrollVi_14be08a7_3dd90f97_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>VideoName
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.967"
+			timeRelativeToTestModuleStartTime="00:14.967"
+			timeWallClock="00:01:21"
+			time="00:14.967"
+			level="Error"
+			category="Module"
+			errimg="images_ScrollVi_14be08a7\ScrollVi_14be08a7_b4898aec_trace.jpg"
+			errthumb="images_ScrollVi_14be08a7\ScrollVi_14be08a7_b4898aec_trace_thumb.jpg">
+			<message>
+				Invalid RxPath '/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']\a[@innertext='DSTC 2019 | Khimananad Upreti''.<br/>Invalid character at character position 203.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.RxPath..ctor(String path)
+   at Ranorex.Core.RxPath.op_Implicit(String path)
+   at TestAutothon.ScrollVideo.Ranorex.Core.Testing.ITestModule.Run() in f:\Root\TestAutothon\TestAutothon\Source\ScrollVideo.cs:line 63
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\ScrollVideo.cs"
+				codeline="63"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

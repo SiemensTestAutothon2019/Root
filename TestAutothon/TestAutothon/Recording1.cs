@@ -79,6 +79,18 @@ namespace TestAutothon
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StepInForumYouTube.MoviePlayer.YtpButtonYtpSettingsButton' at 16;10.", repo.StepInForumYouTube.MoviePlayer.YtpButtonYtpSettingsButtonInfo, new RecordItemIndex(0));
+            repo.StepInForumYouTube.MoviePlayer.YtpButtonYtpSettingsButton.Click("16;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StepInForumYouTube.MoviePlayer.YtpMenuitemContent' at 92;17.", repo.StepInForumYouTube.MoviePlayer.YtpMenuitemContentInfo, new RecordItemIndex(1));
+            repo.StepInForumYouTube.MoviePlayer.YtpMenuitemContent.Click("92;17");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'StepInForumYouTube.MoviePlayer.SomeDivTag' at 63;10.", repo.StepInForumYouTube.MoviePlayer.SomeDivTagInfo, new RecordItemIndex(2));
+            repo.StepInForumYouTube.MoviePlayer.SomeDivTag.Click("63;10");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

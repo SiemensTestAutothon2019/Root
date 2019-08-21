@@ -85,12 +85,15 @@ namespace TestAutothon
         [RepositoryFolder("bbb80d28-40ed-429b-963d-836de6934076")]
         public partial class StepInForumYouTubeAppFolder : RepoGenBaseFolder
         {
+            TestAutothonRepositoryFolders.MoviePlayerFolder _movieplayer;
             RepoItemInfo _searchqueryInfo;
             RepoItemInfo _searchbuttonInfo;
             RepoItemInfo _stepinforumInfo;
             RepoItemInfo _videostabInfo;
             RepoItemInfo _stepinvideosallInfo;
             RepoItemInfo _stepinvideoInfo;
+            RepoItemInfo _videolistInfo;
+            RepoItemInfo _stylescopeytdwatchnextsecondaryresInfo;
 
             /// <summary>
             /// Creates a new StepInForumYouTube  folder.
@@ -98,12 +101,15 @@ namespace TestAutothon
             public StepInForumYouTubeAppFolder(RepoGenBaseFolder parentFolder) :
                     base("StepInForumYouTube", "/dom[@domain='www.youtube.com']", parentFolder, 30000, null, false, "bbb80d28-40ed-429b-963d-836de6934076", "")
             {
+                _movieplayer = new TestAutothonRepositoryFolders.MoviePlayerFolder(this);
                 _searchqueryInfo = new RepoItemInfo(this, "SearchQuery", ".//div[#'search-input']/input[@id='search']", 30000, null, "9310d706-cbf3-49f2-a160-4ca480edbeb7");
                 _searchbuttonInfo = new RepoItemInfo(this, "SearchButton", ".//button[#'search-icon-legacy']/tag[@tagname='yt-icon']", 30000, null, "67650128-7891-4e39-b1c8-15c0adaae44d");
                 _stepinforumInfo = new RepoItemInfo(this, "STePINForum", ".//tag[#'page-manager']//span[@innertext='STeP-IN Forum']", 30000, null, "ae9602e0-c7ee-43e9-9c29-d24369128682");
                 _videostabInfo = new RepoItemInfo(this, "VideosTab", ".//div[#'tabsContent']/?/?/div[@innertext>'                    Videos']", 30000, null, "c600e24a-120e-4083-82ab-f84a9dd79a1c");
                 _stepinvideosallInfo = new RepoItemInfo(this, "StepInVideosAll", ".//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']", 30000, null, "31193da7-ea40-4b82-b6f0-1a7a84250ae6");
                 _stepinvideoInfo = new RepoItemInfo(this, "StepInVideo", ".//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']/tag[3]/div[@id='dismissable']/div[@id='details']/div[@id='meta']/?/?/a[@id='video-title']", 30000, null, "57299b54-89af-4595-b3ae-a6b6a468b3d1");
+                _videolistInfo = new RepoItemInfo(this, "VideoList", ".//tag[#'page-manager']/tag[4]/tag[@tagname='ytd-two-column-browse-results-renderer']/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/?/?/div[@id='items']", 30000, null, "fd480791-50fd-44be-8841-8d95c9103f66");
+                _stylescopeytdwatchnextsecondaryresInfo = new RepoItemInfo(this, "StyleScopeYtdWatchNextSecondaryRes", ".//div[#'related']/?/?/div[@id='items']", 30000, null, "480f36cf-60ba-4027-8c76-a40e229556da");
             }
 
             /// <summary>
@@ -271,6 +277,259 @@ namespace TestAutothon
                 get
                 {
                     return _stepinvideoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The VideoList item.
+            /// </summary>
+            [RepositoryItem("fd480791-50fd-44be-8841-8d95c9103f66")]
+            public virtual Ranorex.DivTag VideoList
+            {
+                get
+                {
+                    return _videolistInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The VideoList item info.
+            /// </summary>
+            [RepositoryItemInfo("fd480791-50fd-44be-8841-8d95c9103f66")]
+            public virtual RepoItemInfo VideoListInfo
+            {
+                get
+                {
+                    return _videolistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The StyleScopeYtdWatchNextSecondaryRes item.
+            /// </summary>
+            [RepositoryItem("480f36cf-60ba-4027-8c76-a40e229556da")]
+            public virtual Ranorex.DivTag StyleScopeYtdWatchNextSecondaryRes
+            {
+                get
+                {
+                    return _stylescopeytdwatchnextsecondaryresInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The StyleScopeYtdWatchNextSecondaryRes item info.
+            /// </summary>
+            [RepositoryItemInfo("480f36cf-60ba-4027-8c76-a40e229556da")]
+            public virtual RepoItemInfo StyleScopeYtdWatchNextSecondaryResInfo
+            {
+                get
+                {
+                    return _stylescopeytdwatchnextsecondaryresInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MoviePlayer folder.
+            /// </summary>
+            [RepositoryFolder("06a44c86-dce1-4c8a-922e-dc2435ec33e6")]
+            public virtual TestAutothonRepositoryFolders.MoviePlayerFolder MoviePlayer
+            {
+                get { return _movieplayer; }
+            }
+        }
+
+        /// <summary>
+        /// The MoviePlayerFolder folder.
+        /// </summary>
+        [RepositoryFolder("06a44c86-dce1-4c8a-922e-dc2435ec33e6")]
+        public partial class MoviePlayerFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _settingsInfo;
+            RepoItemInfo _spantag360pInfo;
+            RepoItemInfo _ytpmenuitemlabelInfo;
+            RepoItemInfo _ytpbuttonytpsettingsbuttonInfo;
+            RepoItemInfo _ytpmenuitemcontentInfo;
+            RepoItemInfo _somedivtagInfo;
+
+            /// <summary>
+            /// Creates a new MoviePlayer  folder.
+            /// </summary>
+            public MoviePlayerFolder(RepoGenBaseFolder parentFolder) :
+                    base("MoviePlayer", ".//div[#'movie_player']", parentFolder, 30000, null, false, "06a44c86-dce1-4c8a-922e-dc2435ec33e6", "")
+            {
+                _settingsInfo = new RepoItemInfo(this, "Settings", ".//button[@title='Settings']", 30000, null, "4014b274-a4f5-484d-a654-08f1dc19b56e");
+                _spantag360pInfo = new RepoItemInfo(this, "SpanTag360p", "div[19]/div/div/div[3]//span[@innertext='360p']", 30000, null, "682e96e0-9011-49d6-ba83-9c283a0dc00a");
+                _ytpmenuitemlabelInfo = new RepoItemInfo(this, "YtpMenuitemLabel", "div[19]/div/div[2]/div[5]/div", 30000, null, "91fdafbc-8b39-408c-83e9-0d37b4908b29");
+                _ytpbuttonytpsettingsbuttonInfo = new RepoItemInfo(this, "YtpButtonYtpSettingsButton", "div[21]/div[2]/div[2]/button[3]", 30000, null, "cfc9d054-c6c7-4685-9f51-a09bfc966d0f");
+                _ytpmenuitemcontentInfo = new RepoItemInfo(this, "YtpMenuitemContent", "div[19]/div/div/div[3]/div[2]", 30000, null, "f5ed8255-23e6-42e9-a01f-add947560d74");
+                _somedivtagInfo = new RepoItemInfo(this, "SomeDivTag", "div[19]/div/div[2]/div[4]/?/?/div", 30000, null, "ccefb611-c22c-43a6-9f25-6f4ff2ccecc2");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("06a44c86-dce1-4c8a-922e-dc2435ec33e6")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("06a44c86-dce1-4c8a-922e-dc2435ec33e6")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Settings item.
+            /// </summary>
+            [RepositoryItem("4014b274-a4f5-484d-a654-08f1dc19b56e")]
+            public virtual Ranorex.ButtonTag Settings
+            {
+                get
+                {
+                    return _settingsInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Settings item info.
+            /// </summary>
+            [RepositoryItemInfo("4014b274-a4f5-484d-a654-08f1dc19b56e")]
+            public virtual RepoItemInfo SettingsInfo
+            {
+                get
+                {
+                    return _settingsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SpanTag360p item.
+            /// </summary>
+            [RepositoryItem("682e96e0-9011-49d6-ba83-9c283a0dc00a")]
+            public virtual Ranorex.SpanTag SpanTag360p
+            {
+                get
+                {
+                    return _spantag360pInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SpanTag360p item info.
+            /// </summary>
+            [RepositoryItemInfo("682e96e0-9011-49d6-ba83-9c283a0dc00a")]
+            public virtual RepoItemInfo SpanTag360pInfo
+            {
+                get
+                {
+                    return _spantag360pInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YtpMenuitemLabel item.
+            /// </summary>
+            [RepositoryItem("91fdafbc-8b39-408c-83e9-0d37b4908b29")]
+            public virtual Ranorex.DivTag YtpMenuitemLabel
+            {
+                get
+                {
+                    return _ytpmenuitemlabelInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YtpMenuitemLabel item info.
+            /// </summary>
+            [RepositoryItemInfo("91fdafbc-8b39-408c-83e9-0d37b4908b29")]
+            public virtual RepoItemInfo YtpMenuitemLabelInfo
+            {
+                get
+                {
+                    return _ytpmenuitemlabelInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YtpButtonYtpSettingsButton item.
+            /// </summary>
+            [RepositoryItem("cfc9d054-c6c7-4685-9f51-a09bfc966d0f")]
+            public virtual Ranorex.ButtonTag YtpButtonYtpSettingsButton
+            {
+                get
+                {
+                    return _ytpbuttonytpsettingsbuttonInfo.CreateAdapter<Ranorex.ButtonTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YtpButtonYtpSettingsButton item info.
+            /// </summary>
+            [RepositoryItemInfo("cfc9d054-c6c7-4685-9f51-a09bfc966d0f")]
+            public virtual RepoItemInfo YtpButtonYtpSettingsButtonInfo
+            {
+                get
+                {
+                    return _ytpbuttonytpsettingsbuttonInfo;
+                }
+            }
+
+            /// <summary>
+            /// The YtpMenuitemContent item.
+            /// </summary>
+            [RepositoryItem("f5ed8255-23e6-42e9-a01f-add947560d74")]
+            public virtual Ranorex.DivTag YtpMenuitemContent
+            {
+                get
+                {
+                    return _ytpmenuitemcontentInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The YtpMenuitemContent item info.
+            /// </summary>
+            [RepositoryItemInfo("f5ed8255-23e6-42e9-a01f-add947560d74")]
+            public virtual RepoItemInfo YtpMenuitemContentInfo
+            {
+                get
+                {
+                    return _ytpmenuitemcontentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item.
+            /// </summary>
+            [RepositoryItem("ccefb611-c22c-43a6-9f25-6f4ff2ccecc2")]
+            public virtual Ranorex.DivTag SomeDivTag
+            {
+                get
+                {
+                    return _somedivtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("ccefb611-c22c-43a6-9f25-6f4ff2ccecc2")]
+            public virtual RepoItemInfo SomeDivTagInfo
+            {
+                get
+                {
+                    return _somedivtagInfo;
                 }
             }
         }

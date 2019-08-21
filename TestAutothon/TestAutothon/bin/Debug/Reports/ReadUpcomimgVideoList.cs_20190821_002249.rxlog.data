@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="ce63ccab9f53a58"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Bindudevi"
+		rxversion="9.1.1.0"
+		host="DESKTOP-JKP92C6"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="8/21/2019 12:22:53 AM"
+		timestampiso="2019-08-21T07:22:53"
+		endtime="8/21/2019 12:23:09 AM"
+		timeoutfactor="1"
+		module="ReadUpcomimgVideoList">
+		<detail>
+			ReadUpcomimgVideoList
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.985"
+			timeRelativeToTestModuleStartTime="00:15.985"
+			timeWallClock="00:23:09"
+			time="00:15.985"
+			level="Info"
+			category="User">
+			<message>
+				Mix - The Wakhra Song - Judgementall Hai Kya |Kangana R &amp; Rajkummar R|Tanishk,Navv Inder,Lisa,Raja Kumari
+			</message>
+			<metainfo
+				codefile="f:\Root\TestAutothon\TestAutothon\Source\ReadUpcomimgVideoList.cs"
+				codeline="55"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

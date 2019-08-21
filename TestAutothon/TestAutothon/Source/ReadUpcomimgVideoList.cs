@@ -20,6 +20,7 @@ using Ranorex.Core.Testing;
 
 namespace TestAutothon
 {
+	
     /// <summary>
     /// Description of ReadUpcomimgVideoList.
     /// </summary>
@@ -45,6 +46,18 @@ namespace TestAutothon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            
+            var repo = TestAutothonRepository.Instance;
+            var VideolList = repo.StepInForumYouTube.StyleScopeYtdWatchNextSecondaryRes;
+            List<string> lstVideos=new List<string>();
+            IList<WebElement> elmVideoList=VideolList.Find<WebElement>(VideolList.GetPath().ToString()+"//div[@id='dismissable']//span[@id='video-title']");
+            Report.Info(VideolList.GetPath().ToString()+"//div[@Id='contents']//div[@id='dismissable']//span[@id='video-title']");
+            foreach (var video in elmVideoList)
+            {
+            	Report.Info(video.GetPath().ToString());
+            	lstVideos.Add(video.GetAttributeValue<object>("Title").ToString());
+            }
+
         }
     }
 }

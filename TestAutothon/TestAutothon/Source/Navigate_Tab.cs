@@ -26,6 +26,15 @@ namespace TestAutothon
     [TestModule("F529B6CB-CF78-4F52-B7B7-84B9108C349D", ModuleType.UserCode, 1)]
     public class Navigate_Tab : ITestModule
     {
+    	
+    	string _TabName = "VIDEOS";
+    	[TestVariable("bc5faa3e-4b17-41fe-aa17-41d0ab98e51b")]
+    	public string TabName
+    	{
+    		get { return _TabName; }
+    		set { _TabName = value; }
+    	}
+    	
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
@@ -45,6 +54,17 @@ namespace TestAutothon
             Mouse.DefaultMoveTime = 300;
             Keyboard.DefaultKeyPressTime = 100;
             Delay.SpeedFactor = 1.0;
+            Mouse.Enabled=false;
+            
+            TestAutothonRepository repo = TestAutothonRepository.Instance;
+            WebElement elmTab;
+            if(repo.StepInForumYouTube.VideosTabInfo.Exists(20000,out elmTab))
+            {
+            	elmTab.Click();
+            	Report.Success(string.Format("Successfully clicked on {0} tab.",TabName));
+            }
+            else
+            	throw new RanorexException(string.Format("Failed to find {0} tab.",TabName));
         }
     }
 }

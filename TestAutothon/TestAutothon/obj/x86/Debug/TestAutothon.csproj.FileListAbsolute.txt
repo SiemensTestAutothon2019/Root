@@ -36,3 +36,7 @@ F:\Root\TestAutothon\TestAutothon\bin\Debug\Ranorex.Core.Resolver.dll
 F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.csprojResolveAssemblyReference.cache
 F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.exe
 F:\Root\TestAutothon\TestAutothon\obj\x86\Debug\TestAutothon.pdb
+F:\Root\TestAutothon\TestAutothon\bin\Debug\Newtonsoft.Json.dll
+F:\Root\TestAutothon\TestAutothon\bin\Debug\System.Net.Http.Formatting.dll
+F:\Root\TestAutothon\TestAutothon\bin\Debug\Newtonsoft.Json.xml
+F:\Root\TestAutothon\TestAutothon\bin\Debug\System.Net.Http.Formatting.xml
