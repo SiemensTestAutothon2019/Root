@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8ea8ec6c-2898-4049-af3b-5d64153f77bf"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="MobileTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="e3195d2c-e678-4ce0-b843-22344402bdfe"
+	name="MobileTestRepository"
+	relativepath="MobileTestRepository.rxrep">
+		<codegen
+		classname="MobileTestRepository"
+		namespace="MobileTest">
+		</codegen>
+		<rootfolder
+		id="16ed4bfa-0fd4-448e-bf1b-4517e2fbd850"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -20,7 +20,7 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace TestAutothon.Source
+namespace MobileTest
 {
     public partial class Recording1
     {

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="MobileTestRepository"
+id="e3195d2c-e678-4ce0-b843-22344402bdfe">
+  <codegen
+  classname="MobileTestRepository"
+  namespace="MobileTest"/>
+  <rootfolder
+  name="Root"
+  id="16ed4bfa-0fd4-448e-bf1b-4517e2fbd850"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

@@ -20,19 +20,19 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace TestAutothon.Source
+namespace MobileTest
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
     ///The Recording1 recording.
     /// </summary>
-    [TestModule("a738fbc8-df85-45c9-afb7-d19e28da9bc0", ModuleType.Recording, 1)]
+    [TestModule("8ea8ec6c-2898-4049-af3b-5d64153f77bf", ModuleType.Recording, 1)]
     public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::TestAutothon.TestAutothonRepository repository.
+        /// Holds an instance of the MobileTestRepository repository.
         /// </summary>
-        public static global::TestAutothon.TestAutothonRepository repo = global::TestAutothon.TestAutothonRepository.Instance;
+        public static MobileTestRepository repo = MobileTestRepository.Instance;
 
         static Recording1 instance = new Recording1();
 
@@ -79,24 +79,6 @@ namespace TestAutothon.Source
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'ranorex.RxBrowser' on device " + Ranorex.Core.Remoting.RemoteServiceLocator.GetCurrentDeviceName() + ".", new RecordItemIndex(0));
-            Host.Local.RunMobileApp(Ranorex.Core.Remoting.RemoteServiceLocator.GetCurrentDeviceName(), "ranorex.RxBrowser", true);
-            Delay.Milliseconds(3500);
-            
-            // Browse to site.
-            Report.Log(ReportLevel.Info, "Set value", "Browse to site.\r\nSetting attribute PageUrl to 'http://www.youtube.com' on item 'Browser.Dom'.", repo.Browser.Dom.SelfInfo, new RecordItemIndex(1));
-            repo.Browser.Dom.Self.Element.SetAttributeValue("PageUrl", "http://www.youtube.com");
-            Delay.Milliseconds(10000);
-            
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'ranorex.RxBrowser' on device " + Ranorex.Core.Remoting.RemoteServiceLocator.GetCurrentDeviceName() + ".", new RecordItemIndex(2));
-            Host.Local.RunMobileApp(Ranorex.Core.Remoting.RemoteServiceLocator.GetCurrentDeviceName(), "ranorex.RxBrowser", true);
-            Delay.Milliseconds(3500);
-            
-            // Browse to site.
-            Report.Log(ReportLevel.Info, "Set value", "Browse to site.\r\nSetting attribute PageUrl to 'http://www.youtube.com' on item 'Browser.Dom'.", repo.Browser.Dom.SelfInfo, new RecordItemIndex(3));
-            repo.Browser.Dom.Self.Element.SetAttributeValue("PageUrl", "http://www.youtube.com");
-            Delay.Milliseconds(10000);
-            
         }
 
 #region Image Feature Data

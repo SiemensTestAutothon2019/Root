@@ -6,3 +6,11 @@ F:\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
 F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
 F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
 F:\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+D:\Git\Root\TestAutothon\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
